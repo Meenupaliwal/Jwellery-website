@@ -1,7 +1,8 @@
 import React from "react";
 import SidebarFilter from "./SidebarFilter";
 import ShopControl from "./ShopControl";
-import ArtificialJewelleryBox from "./ArtificialJewelleryBox";
+import Policies from "./Policies";
+import CombinedProductPage from "./CombinedProductPage ";
 
 const ProductSidebar = () => {
   return (
@@ -11,8 +12,11 @@ const ProductSidebar = () => {
           <SidebarFilter />
           <div className="col-xl-9">
             <ShopControl />
-            <ArtificialJewelleryBox />
+            <CombinedProductPage />
+
+        
           </div>
+              <Policies />
         </div>
       </div>
     </div>

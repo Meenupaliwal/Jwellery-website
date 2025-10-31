@@ -56,7 +56,7 @@ const ShopControl = () => {
             <span className="icon icon-caret-down"></span>
           </div>
 
-          <div className="dropdown-menu show">
+          <div className="dropdown-menu">
             {[
               { label: "Best Selling", value: "best-selling" },
               { label: "Alphabetically, A-Z", value: "a-z" },

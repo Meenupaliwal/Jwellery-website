@@ -14,12 +14,14 @@ import '../icon/icomoon/style.css';
 import Slider from '../components/Slider';
 import CategorySlider from '../components/CategorySlider';
 import ProductSidebar from '../components/ProductSidebar';
+import MarqueCard from '../components/MarqueCard';
 
 function Product() {
   return (
 <>
   <Slider />
    <CategorySlider />
+   
    <ProductSidebar />
    
 

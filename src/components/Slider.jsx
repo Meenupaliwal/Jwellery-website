@@ -14,22 +14,22 @@ const Slider = () => {
       id: 1,
       title: "Artificial Jewelry <br /> Collection",
       subtitle: "A diverse collection of artificial jewelry to suit every style and occasion.",
-      img: "images/slider/slider-24.jpg",
-      link: "shop-default-list.html",
+      img: "../images/slider/slider-24.jpg",
+      link: "/product",
     },
     {
       id: 2,
       title: "Jewelry <br class='d-sm-none' /> Collection",
       subtitle: "A diverse collection of  jewelry to suit every style and occasion",
-      img: "images/slider/slider-22.jpg",
-      link: "shop-default-list.html",
+      img: "../images/slider/slider-22.jpg",
+      link: "/product",
     },
     {
       id: 3,
       title: "Kurtis <br class='d-sm-none' /> Series",
       subtitle: "Stylish and comfortable kurtis that complement our jewelry collections.",
-      img: "images/slider/slider-3.jpg",
-      link: "shop-default-list.html",
+      img: "../images/slider/slider-3.jpg",
+      link: "/product",
     },
   ];
 

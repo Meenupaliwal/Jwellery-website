@@ -19748,3 +19748,19 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
     height: 450px;
   }
 }
+[dir="ltr"] .swiper-slide {
+  float: left;
+}
+
+/* After (universal rule) */
+.swiper-slide {
+  float: left;
+}
+
+[dir="ltr"] .swiper-slide {
+  float: left;
+}
+
+[dir="rtl"] .swiper-slide {
+  float: right;
+}

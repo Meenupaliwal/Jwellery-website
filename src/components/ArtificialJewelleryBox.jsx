@@ -64,7 +64,7 @@ const ArtificialJewelleryBox = () => {
             768: { slidesPerView: 3, spaceBetween: 30 },
             1200: { slidesPerView: 4, spaceBetween: 48 },
           }}
-          className="tf-swiper wow fadeInUp"
+          className="tf-swiper wow fadeInUp mt-5"
         >
           {products.map((item, index) => (
             <SwiperSlide key={index}>

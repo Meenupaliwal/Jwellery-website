@@ -30,12 +30,15 @@ const SidebarFilter = () => {
               <div id="category" className="collapse show">
                 <ul className="collapse-body filter-group-check group-category">
                   {[
-                    { name: "T-shirts", count: 23 },
-                    { name: "Footwear", count: 44 },
-                    { name: "Shirts", count: 75 },
-                    { name: "Dresses", count: 33 },
-                    { name: "Underwear", count: 45 },
-                    { name: "Accessories", count: 32 },
+                    { name: "Necklaces / Chains", count: 23 },
+                    { name: "Earrings", count: 44 },
+                    { name: "Rings", count: 75 },
+                    { name: "Bracelets / Bangles", count: 33 },
+                    { name: "Anklets / Payal", count: 45 },
+                    { name: "Nose Pins / Rings", count: 32 },
+                     { name: "Pendants / Lockets", count: 32 },
+                      { name: "Wedding / Bridal Jewellery Sets", count: 32 },
+                       { name: "Coins / Tokens", count: 32 },
                   ].map((item, index) => (
                     <li className="list-item" key={index}>
                       <Link to="/product" className="link h6">
@@ -132,51 +135,6 @@ const SidebarFilter = () => {
               </div>
             </div>
 
-            {/* Brand Filter */}
-            <div className="widget-facet">
-              <div
-                className="facet-title"
-                data-bs-target="#brand"
-                role="button"
-                data-bs-toggle="collapse"
-                aria-expanded="true"
-                aria-controls="brand"
-              >
-                <span className="h4 fw-semibold">Brand</span>
-                <span className="icon icon-caret-down fs-20"></span>
-              </div>
-              <div id="brand" className="collapse show">
-                <ul className="collapse-body filter-group-check current-scrollbar">
-                  {[
-                    "AUTOMET",
-                    "Trendy Queen",
-                    "WIHOLL",
-                    "Real Essentials",
-                    "Dokotoo",
-                    "Hanes",
-                    "Zeagoo",
-                    "SHEWIN",
-                    "Blooming Jelly",
-                    "Fisoew",
-                  ].map((brand, index) => (
-                    <li className="list-item" key={index}>
-                      <input
-                        type="checkbox"
-                        name="brand"
-                        className="tf-check"
-                        id={brand.toLowerCase().replace(/\s+/g, "-")}
-                      />
-                      <label
-                        htmlFor={brand.toLowerCase().replace(/\s+/g, "-")}
-                        className="label"
-                      >
-                        {brand}
-                      </label>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
 
             {/* Size Filter */}
             <div className="widget-facet">
@@ -188,63 +146,11 @@ const SidebarFilter = () => {
                 aria-expanded="true"
                 aria-controls="size"
               >
-                <span className="h4 fw-semibold">Size</span>
-                <span className="icon icon-caret-down fs-20"></span>
               </div>
-              <div id="size" className="collapse show">
-                <div className="collapse-body filter-size-box flat-check-list">
-                  {["XS", "S", "L", "M", "XL", "2XL", "Over size"].map(
-                    (size, i) => (
-                      <div
-                        className={`check-item size-item size-check ${
-                          size === "Over size" ? "over-size" : ""
-                        }`}
-                        key={i}
-                      >
-                        <span className="size h6">{size}</span>
-                      </div>
-                    )
-                  )}
-                </div>
-              </div>
+        
             </div>
 
-            {/* Color Filter */}
-            <div className="widget-facet">
-              <div
-                className="facet-title"
-                data-bs-target="#color"
-                role="button"
-                data-bs-toggle="collapse"
-                aria-expanded="true"
-                aria-controls="color"
-              >
-                <span className="h4 fw-semibold">Color</span>
-                <span className="icon icon-caret-down fs-20"></span>
-              </div>
-              <div id="color" className="collapse show">
-                <div className="collapse-body filter-color-box flat-check-list">
-                  {[
-                    { color: "bg-light-purple", name: "Purple" },
-                    { color: "bg-dark-charcoal", name: "Dark" },
-                    { color: "bg-dark-jade", name: "Green" },
-                    { color: "bg-light-beige", name: "Beige" },
-                    { color: "bg-sage-green", name: "Sage Green" },
-                    { color: "bg-tomato", name: "Light Orange" },
-                    { color: "bg-honey-orange", name: "Orange" },
-                    { color: "bg-dark-olive", name: "Dark Olive" },
-                    { color: "bg-hot-pink", name: "Pink" },
-                    { color: "bg-muted-violet", name: "Dark Violet" },
-                    { color: "bg-dusty-olive", name: "Dusty Olive" },
-                  ].map((item, i) => (
-                    <div className="check-item color-item color-check" key={i}>
-                      <span className={`color ${item.color}`}></span>
-                      <span className="color-text">{item.name}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
+    
 
             {/* Banner Section */}
             <div className="sb-banner hover-img">
@@ -256,10 +162,10 @@ const SidebarFilter = () => {
                 />
               </Link>
               <div className="content">
-                <h5 className="sub-title text-primary">Sale Upto 45%</h5>
+                <h5 className="sub-title text-white">Sale Upto 45%</h5>
                 <h2 className="fw-semibold title">
                   <Link to="#" className="text-white link">
-                    Fall winter collection
+                    Jwellery Festival Collection
                   </Link>
                 </h2>
                 <Link
