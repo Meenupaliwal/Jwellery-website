@@ -161,6 +161,126 @@ const Footer = () => {
             </div>
 
           </div>
+          <hr/>
+<div className="popular-searches">
+  <p className="h4 fw-semibold mb-2">Popular Searches</p>
+  <div className="tags h5">
+    <a href="#">Rings</a> |{" "}
+    <a href="#">Earrings</a> |{" "}
+    <a href="#">Mangalsutra</a> |{" "}
+    <a href="#">Mangalsutra Bracelets</a> |{" "}
+    <a href="#">Bangles</a> |{" "}
+    <a href="#">Bracelets</a> |{" "}
+    <a href="#">Pendants</a> |{" "}
+    <a href="#">Necklaces</a> |{" "}
+    <a href="#">Couple Bands</a> |{" "}
+    <a href="#">Gold Coins</a> |{" "}
+    <a href="#">Chains</a> |{" "}
+    <a href="#">Watch Jewellery</a> |{" "}
+    <a href="#">Nose Pin</a> |{" "}
+    <a href="#">Dailywear Rings</a> |{" "}
+    <a href="#">Dailywear Bracelets</a>
+  </div>
+</div>
+ <hr/>
+ <div className="top-searches">
+  <div className="search-category">
+    <h5 className="h4 fw-semibold mb-2">Top Searches in Gold Jewellery</h5>
+    <p  className="tags h5">
+      <a href="#">Gold Jewellery</a> |{" "}
+      <a href="#">Gold Rings</a> |{" "}
+      <a href="#">Gold Earrings</a> |{" "}
+      <a href="#">Gold Pendants</a> |{" "}
+      <a href="#">Gold Necklaces</a> |{" "}
+      <a href="#">Gold Mangalsutras</a> |{" "}
+      <a href="#">Gold Bangles</a> |{" "}
+      <a href="#">Women Gold Rings</a> |{" "}
+      <a href="#">Men's Gold Earrings</a> |{" "}
+      <a href="#">Gold Chains for Men</a> |{" "}
+      <a href="#">Dailywear Gold Earrings</a> |{" "}
+      <a href="#">Dailywear Gold Bangles</a>
+    </p>
+  </div>
+<hr />
+  <div className="search-category">
+    <h5 className="h4 fw-semibold mb-2">Top Searches in Diamond Jewellery</h5>
+    <p className="tags h5">
+      <a href="#">Diamond Jewellery</a> |{" "}
+      <a href="#">Diamond Rings</a> |{" "}
+      <a href="#">Diamond Earrings</a> |{" "}
+      <a href="#">Diamond Pendants</a> |{" "}
+      <a href="#">Diamond Necklaces</a> |{" "}
+      <a href="#">Diamond Mangalsutras</a> |{" "}
+      <a href="#">Diamond Bangles</a> |{" "}
+      <a href="#">Diamond Bracelets</a> |{" "}
+      <a href="#">Women Diamond Rings</a> |{" "}
+      <a href="#">Men's Diamond Earrings</a> |{" "}
+      <a href="#">Men's Diamond Rings</a> |{" "}
+      <a href="#">Men's Diamond Bracelets</a>
+    </p>
+  </div>
+<hr />
+  <div className="search-category">
+    <h5 className="h4 fw-semibold mb-2">Men's Jewellery Collection</h5>
+    <p className="tags h5">
+      <a href="#">Men's Jewellery</a> |{" "}
+      <a href="#">Rings for Men</a> |{" "}
+      <a href="#">Earrings for Men</a> |{" "}
+      <a href="#">Men's Kada</a> |{" "}
+      <a href="#">Cufflinks for Men</a>
+    </p>
+  </div>
+<hr />
+  <div className="search-category">
+    <h5 className="h4 fw-semibold mb-2">Women's Jewellery Collection</h5>
+    <p className="tags h5">
+      <a href="#">Jewellery For Women</a> |{" "}
+      <a href="#">Rings for Women</a> |{" "}
+      <a href="#">Earrings for Women</a> |{" "}
+      <a href="#">Bangles for Women</a> |{" "}
+      <a href="#">Pendants for Women</a> |{" "}
+      <a href="#">Bracelets for Women</a> |{" "}
+      <a href="#">Necklaces for Women</a>
+    </p>
+  </div>
+  <hr />
+
+  <div className="search-category">
+    <h5 className="h4 fw-semibold mb-2">Jewellery by Occasion</h5>
+    <p className="tags h5">
+      <a href="#">Engagement Ring</a> |{" "}
+      <a href="#">Engagement Ring For Women</a> |{" "}
+      <a href="#">Engagement Ring For Men</a> |{" "}
+      <a href="#">Gold Engagement Rings for Women</a> |{" "}
+      <a href="#">Gold Engagement Rings for Men</a> |{" "}
+      <a href="#">Diamond Engagement Rings</a> |{" "}
+      <a href="#">Diamond Engagement Rings for Women</a> |{" "}
+      <a href="#">Jewellery Gifts for Anniversary</a> |{" "}
+      <a href="#">Jewellery Gifts for Wedding</a>
+    </p>
+  </div>
+<hr />
+  <div className="search-category">
+    <h5 className="h4 fw-semibold mb-2">INJILA Jewellery Stores Near You</h5>
+    <p className="tags h5 mb-3">
+      <a href="#">Jewellery Shop in Bangalore</a> |{" "}
+      <a href="#">Jewellery Shop in Mumbai</a> |{" "}
+      <a href="#">Jewellery Shop in Delhi</a> |{" "}
+      <a href="#">Jewellery Shop in Hyderabad</a> |{" "}
+      <a href="#">Jewellery Shop in Chennai</a> |{" "}
+      <a href="#">Jewellery Shop in Gurugram</a> |{" "}
+      <a href="#">Jewellery Shop in Pune</a> |{" "}
+      <a href="#">Jewellery Shop in Navi Mumbai</a> |{" "}
+      <a href="#">Jewellery Shop in Thane</a> |{" "}
+      <a href="#">Jewellery Shop in Noida</a> |{" "}
+      <a href="#">Jewellery Shop in Kolkata</a> |{" "}
+      <a href="#">Jewellery Shop in Ahmedabad</a>
+    </p>
+  </div>
+</div>
+
+
+
         </div>
       </div>
     </footer>

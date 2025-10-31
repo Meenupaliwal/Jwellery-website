@@ -1,12 +1,6 @@
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
 
-	* Abstracts variable
 
-    * Reset css styles
 
     * Components
 
@@ -22,7 +16,6 @@
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -111,10 +104,7 @@
 
 /*---------- Reset css styles ----------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -134,7 +124,6 @@
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -1801,10 +1790,7 @@ a:focus, a:hover {
 /*------------ Components ---------------- */
 /*------------ header ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -1824,7 +1810,6 @@ a:focus, a:hover {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -2599,12 +2584,6 @@ header.header-sticky {
 .canvas-mb {
   width: 325px !important;
 }
-.canvas-mb .icon-close-popup {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 10px;
-}
 .canvas-mb .canvas-header {
   padding-bottom: 32px;
   position: relative;
@@ -2820,10 +2799,7 @@ header.header-sticky {
 
 /*------------ footer ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -2843,7 +2819,6 @@ header.header-sticky {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -3129,10 +3104,7 @@ header.header-sticky {
 
 /*------------ slider banner ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -3152,7 +3124,6 @@ header.header-sticky {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -3602,17 +3573,17 @@ header.header-sticky {
 }
 
 @media (max-width: 1439px) {
-  .tf-slideshow .slider-wrap {
+  .tf-slideshow .wrap {
     height: 650px;
   }
 }
 @media (max-width: 767px) {
-  .tf-slideshow .slider-wrap {
+  .tf-slideshow .wrap {
     height: 600px;
   }
 }
 @media (max-width: 575px) {
-  .tf-slideshow .slider-wrap {
+  .tf-slideshow .wrap {
     height: 450px;
   }
 }
@@ -3634,12 +3605,12 @@ header.header-sticky {
 }
 
 @media (max-width: 767px) {
-  .tf-slideshow-2 .slider-wrap {
+  .tf-slideshow-2 .wrap {
     height: 400px;
   }
 }
 @media (max-width: 575px) {
-  .tf-slideshow-2 .slider-wrap {
+  .tf-slideshow-2 .wrap {
     height: 350px;
   }
 }
@@ -3658,104 +3629,104 @@ header.header-sticky {
   visibility: visible;
 }
 
-.slider-wrap {
+.wrap {
   position: relative;
 }
-.slider-wrap.has-overlay::after {
+.wrap.has-overlay::after {
   content: "";
   inset: 0;
   position: absolute;
   z-index: 0;
   background: linear-gradient(-90deg, rgba(41, 27, 27, 0) 32.95%, #291B1B 80.78%);
 }
-.slider-wrap.style-2 .sub-title_sld,
-.slider-wrap.style-2 .title_sld {
+.wrap.style-2 .sub-title_sld,
+.wrap.style-2 .title_sld {
   margin-bottom: 15px;
 }
-.slider-wrap .type-radius {
+.wrap .type-radius {
   border-radius: 16px;
   overflow: hidden;
 }
-.slider-wrap.style-5 .sub-title_sld {
+.wrap.style-5 .sub-title_sld {
   margin-bottom: 12px;
 }
-.slider-wrap.style-5 .title_sld {
+.wrap.style-5 .title_sld {
   margin-bottom: 24px;
 }
-.slider-wrap.style-7 .title_sld {
+.wrap.style-7 .title_sld {
   margin-bottom: 32px;
 }
-.slider-wrap.style-7 .sub-text_sld {
+.wrap.style-7 .sub-text_sld {
   margin-bottom: 40px;
 }
 @media (min-width: 1200px) {
-  .slider-wrap.style-2 .sub-title_sld,
-  .slider-wrap.style-2 .title_sld {
+  .wrap.style-2 .sub-title_sld,
+  .wrap.style-2 .title_sld {
     margin-bottom: 24px;
   }
-  .slider-wrap.style-4 .title_sld {
+  .wrap.style-4 .title_sld {
     margin-bottom: 24px;
   }
 }
 @media (min-width: 1440px) {
-  .slider-wrap.style-2 .sub-text_sld {
+  .wrap.style-2 .sub-text_sld {
     margin-bottom: 56px;
   }
-  .slider-wrap.style-3 .sub-title_sld-2 {
+  .wrap.style-3 .sub-title_sld-2 {
     margin-bottom: -16px;
   }
-  .slider-wrap.style-3 .sub-text_sld {
+  .wrap.style-3 .sub-text_sld {
     margin-bottom: 40px;
   }
-  .slider-wrap.style-6 .title_sld {
+  .wrap.style-6 .title_sld {
     margin-bottom: 32px;
   }
-  .slider-wrap.style-6 .sub-text_sld {
+  .wrap.style-6 .sub-text_sld {
     margin-bottom: 40px;
   }
-  .slider-wrap.has-nav {
+  .wrap.has-nav {
     min-height: 639px;
   }
 }
 @media (max-width: 575px) {
-  .slider-wrap.style-2 .title_sld {
+  .wrap.style-2 .title_sld {
     margin-bottom: 24px;
   }
 }
 
-.slider-wrap_2 {
+.wrap_2 {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
 }
-.slider-wrap_2 > * {
+.wrap_2 > * {
   width: 100%;
   min-height: 400px;
 }
-.slider-wrap_2 .type-radius {
+.wrap_2 .type-radius {
   border-radius: 24px;
   overflow: hidden;
 }
-.slider-wrap_2 .sld_content {
+.wrap_2 .sld_content {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 @media (min-width: 768px) {
-  .slider-wrap_2 {
+  .wrap_2 {
     flex-wrap: nowrap;
   }
-  .slider-wrap_2 > * {
+  .wrap_2 > * {
     width: 50%;
   }
 }
 @media (max-width: 767px) {
-  .slider-wrap_2 {
+  .wrap_2 {
     height: auto !important;
     display: grid;
   }
 }
 @media (max-width: 575px) {
-  .slider-wrap_2 > * {
+  .wrap_2 > * {
     min-height: 350px;
   }
 }
@@ -4028,22 +3999,6 @@ header.header-sticky {
   }
 }
 
-@media (max-width: 1199px) {
-  .tf-swiper .article-blog.style-row .blog-content,
-  .tf-swiper .article-blog.style-row .entry_ima {
-    flex: unset;
-  }
-}
-@media (min-width: 768px) and (max-width: 1199px) {
-  .tf-swiper .article-blog.style-row {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  .tf-swiper .article-blog.style-row .entry_image {
-    aspect-ratio: 0;
-  }
-}
 
 .swiper-medical {
   margin-bottom: -76px;
@@ -4105,19 +4060,16 @@ header.header-sticky {
   }
 }
 
-.slider-book .swiper-slide {
+.book .swiper-slide {
   opacity: 0 !important;
 }
-.slider-book .swiper-slide.swiper-slide-active {
+.book .swiper-slide.swiper-slide-active {
   opacity: 1 !important;
 }
 
 /*------------ button ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -4137,7 +4089,6 @@ header.header-sticky {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -4648,10 +4599,7 @@ button.animate-btn::after,
 
 /*------------ form ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -4671,7 +4619,6 @@ button.animate-btn::after,
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -5935,10 +5882,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 /*------------ nice select ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -5958,7 +5902,6 @@ input[type=number]::-webkit-outer-spin-button {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -6601,10 +6544,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 /*------------ carousel ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -6624,7 +6564,6 @@ input[type=number]::-webkit-outer-spin-button {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -6647,7 +6586,7 @@ input[type=number]::-webkit-outer-spin-button {
   transition-timing-function: linear;
 }
 
-.slider-auto-vertical .swiper-slide {
+.auto-vertical .swiper-slide {
   height: max-content !important;
 }
 
@@ -6657,10 +6596,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 /*------------ pop up ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -6679,8 +6615,6 @@ input[type=number]::-webkit-outer-spin-button {
         * avatar
         * form
         * hover
-        * nice select
-        * popup
         * product
         * shop
         * slider
@@ -6694,27 +6628,6 @@ input[type=number]::-webkit-outer-spin-button {
   border: none !important;
   color: var(--black);
   z-index: 3000;
-}
-.offcanvas .icon-close-popup {
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  cursor: pointer;
-  background: transparent;
-  font-size: 16px;
-  padding: 10px;
-  border: none;
-  color: var(--black);
-  z-index: 10;
-}
-.offcanvas .icon-close-popup:hover {
-  color: var(--primary);
-}
-.offcanvas .icon-close-popup.type-right {
-  top: 16px;
-  right: 16px;
 }
 .offcanvas .offcanvas-content {
   height: 100%;
@@ -6744,32 +6657,6 @@ input[type=number]::-webkit-outer-spin-button {
 
 .modal {
   cursor: url(../images/cursor-close.svg), auto;
-}
-.modal .icon-close-popup {
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  cursor: pointer;
-  background: transparent;
-  font-size: 16px;
-  padding: 16px;
-  border: none;
-  color: var(--black);
-  z-index: 10;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-}
-.modal .icon-close-popup:hover {
-  color: var(--primary);
-}
-@media (min-width: 576px) {
-  .modal .icon-close-popup {
-    top: 10px;
-    right: 10px;
-  }
 }
 .modal .modal-content {
   border: 0;
@@ -6875,13 +6762,6 @@ input[type=number]::-webkit-outer-spin-button {
   position: relative;
   margin-bottom: 30px;
 }
-.modal-heading .icon-close-popup {
-  top: 50%;
-  transform: translateY(-50%);
-  right: 0;
-  left: unset;
-  font-size: 24px;
-}
 @media (min-width: 992px) {
   .modal-heading {
     margin-bottom: 40px;
@@ -6892,9 +6772,7 @@ input[type=number]::-webkit-outer-spin-button {
   max-width: 320px;
   width: 100%;
 }
-.canvas-sidebar .blog-sidebar {
-  max-width: unset;
-}
+
 @media (min-width: 992px) {
   .canvas-sidebar {
     max-width: 535px;
@@ -6920,14 +6798,6 @@ input[type=number]::-webkit-outer-spin-button {
   padding: 24px;
   position: relative;
   text-transform: capitalize;
-}
-.canvas-header .icon-close-popup {
-  height: 32px;
-  width: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
 }
 @media (min-width: 1200px) {
   .canvas-header {
@@ -6999,9 +6869,6 @@ input[type=number]::-webkit-outer-spin-button {
   }
 }
 
-.canvas-sidebar .icon-close-popup {
-  font-size: 24px;
-}
 .canvas-sidebar .sub-title {
   margin-bottom: 20px;
 }
@@ -7011,16 +6878,6 @@ input[type=number]::-webkit-outer-spin-button {
   }
 }
 
-.popup-body {
-  overscroll-behavior-y: contain;
-  overflow-y: auto;
-  padding: 20px;
-}
-@media (min-width: 1200px) {
-  .popup-body {
-    padding: 20px 32px;
-  }
-}
 
 .tf-minicart-recommendations {
   width: 264px;
@@ -7080,164 +6937,6 @@ input[type=number]::-webkit-outer-spin-button {
 @media (max-width: 767px) {
   .tf-minicart-recommendations {
     display: none;
-  }
-}
-
-.popup-shopping-cart {
-  flex-direction: row;
-}
-.popup-shopping-cart .popup-header {
-  padding: 32px 32px 24px;
-  display: flex;
-  justify-content: space-between;
-}
-.popup-shopping-cart .popup-header .icon-close-popup {
-  padding: 0;
-  font-size: 24px !important;
-}
-.popup-shopping-cart .tf-mini-cart-threshold {
-  padding: 0px 32px;
-}
-.popup-shopping-cart .tf-mini-cart-threshold .text {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 16px;
-}
-.popup-shopping-cart .tf-mini-cart-threshold .desc {
-  font-size: 16px;
-  line-height: 140%;
-}
-.popup-shopping-cart .tf-mini-cart-threshold .tf-progress-ship {
-  border-radius: 0;
-  height: 9px;
-  margin-bottom: 16px;
-  background-color: var(--line);
-}
-.popup-shopping-cart .tf-mini-cart-threshold .tf-progress-ship .value {
-  background-color: var(--black);
-  height: 9px;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-.popup-shopping-cart .tf-number-count {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-bottom: 20px;
-  border-bottom: 1px solid var(--line);
-}
-.popup-shopping-cart .wrap {
-  display: flex;
-  flex-direction: column;
-}
-.popup-shopping-cart .tf-mini-cart-wrap {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  position: relative;
-}
-.popup-shopping-cart .tf-cart-totals-discounts {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-@media (min-width: 1200px) {
-  .popup-shopping-cart .tf-cart-totals-discounts {
-    margin-bottom: 32px;
-  }
-}
-.popup-shopping-cart .tf-mini-cart-bottom-wrap {
-  padding: 16px 32px 32px;
-}
-.popup-shopping-cart .tf-mini-cart-bottom-wrap .tf-mini-cart-view-checkout {
-  display: flex;
-  gap: 12px;
-  margin-bottom: 16px;
-}
-.popup-shopping-cart .tf-mini-cart-bottom-wrap .tf-mini-cart-view-checkout a {
-  width: 100%;
-}
-.popup-shopping-cart .tf-mini-cart-bottom-wrap .free-shipping {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--text-2);
-}
-.popup-shopping-cart .tf-mini-cart-bottom-wrap .free-shipping .icon {
-  font-size: 20px;
-}
-.popup-shopping-cart .tf-mini-cart-view-checkout {
-  display: grid;
-  gap: 12px;
-}
-@media (min-width: 576px) {
-  .popup-shopping-cart {
-    max-width: 794px;
-    width: 100% !important;
-  }
-}
-@media (max-width: 767px) {
-  .popup-shopping-cart {
-    flex-direction: column;
-    max-width: min(500px, 100vw);
-    max-width: 340px;
-  }
-  .popup-shopping-cart .tf-minicart-recommendations {
-    padding: 16px 16px 0;
-    width: unset;
-  }
-  .popup-shopping-cart .tf-minicart-recommendations .title {
-    margin-bottom: 16px;
-  }
-  .popup-shopping-cart .list-cart {
-    display: flex;
-    gap: 15px;
-    overflow-x: auto;
-  }
-  .popup-shopping-cart .list-cart .list-cart-item {
-    padding-bottom: 0 !important;
-    border-bottom: 0 !important;
-    margin-bottom: 0 !important;
-    min-width: 120px;
-  }
-  .popup-shopping-cart .list-cart .list-cart-item .image {
-    max-height: 150px;
-    margin-bottom: 12px;
-  }
-  .popup-shopping-cart .tf-mini-cart-threshold,
-  .popup-shopping-cart .tf-mini-cart-sroll {
-    padding: 0 16px;
-  }
-  .popup-shopping-cart .tf-mini-cart-item {
-    padding-bottom: 16px;
-    margin-bottom: 16px;
-  }
-  .popup-shopping-cart .tf-mini-cart-item .tf-mini-cart-image {
-    width: 100px;
-    height: 100px;
-  }
-  .popup-shopping-cart .tf-mini-cart-item .tf-mini-cart-info {
-    gap: 2px;
-  }
-  .popup-shopping-cart .popup-header {
-    padding: 16px;
-  }
-  .popup-shopping-cart .tf-mini-cart-tool {
-    padding: 10px 16px;
-  }
-  .popup-shopping-cart .tf-mini-cart-tool-btn {
-    padding: 6px 8px;
-  }
-  .popup-shopping-cart .tf-mini-cart-bottom-wrap {
-    padding: 16px 16px 24px;
-  }
-  .popup-shopping-cart .tf-mini-cart-tool-openable .tf-mini-cart-tool-content {
-    padding: 24px 16px;
   }
 }
 
@@ -7631,12 +7330,6 @@ input[type=number]::-webkit-outer-spin-button {
     max-width: 325px;
   }
 }
-
-.modal-quick-view .icon-close-popup {
-  font-size: 24px;
-  top: 30px;
-  right: 16px;
-}
 .modal-quick-view .modal-dialog {
   max-width: 1470px;
 }
@@ -7702,11 +7395,7 @@ input[type=number]::-webkit-outer-spin-button {
   margin-bottom: 32px;
 }
 @media (min-width: 768px) {
-  .modal-quick-view .icon-close-popup {
-    font-size: 24px;
-    top: 0px;
-    right: 0px;
-  }
+ 
   .modal-quick-view .tf-product-media-wrap {
     width: 45%;
   }
@@ -7724,11 +7413,7 @@ input[type=number]::-webkit-outer-spin-button {
   .modal-quick-view .modal-content {
     padding: 48px;
   }
-  .modal-quick-view .icon-close-popup {
-    font-size: 24px;
-    top: 10px;
-    right: 10px;
-  }
+ 
 }
 @media (min-width: 1440px) {
   .modal-quick-view .tf-product-media-wrap {
@@ -7785,11 +7470,6 @@ input[type=number]::-webkit-outer-spin-button {
   margin-bottom: 24px;
   position: relative;
   padding-right: 20px;
-}
-.modal-quick-add .tf-product-mini-view .icon-close-popup {
-  top: 0;
-  right: 0;
-  padding: 0;
 }
 @media (min-width: 768px) {
   .modal-quick-add .modal-dialog {
@@ -7874,18 +7554,6 @@ input[type=number]::-webkit-outer-spin-button {
 .canvas-compare {
   height: max-content !important;
   z-index: 5000;
-}
-.canvas-compare .close-popup {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  cursor: pointer;
 }
 .canvas-compare .canvas-body {
   padding: 32px 0;
@@ -8055,10 +7723,6 @@ input[type=number]::-webkit-outer-spin-button {
   }
 }
 
-.modal-search .icon-close-popup {
-  top: 0;
-  right: 0;
-}
 .modal-search .modal-dialog {
   max-width: 974px;
 }
@@ -8218,12 +7882,6 @@ input[type=number]::-webkit-outer-spin-button {
 .canvas-nav {
   width: 320px !important;
 }
-.canvas-nav .icon-close-popup {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  font-size: 24px;
-}
 .canvas-nav .canvas-header {
   padding-bottom: 32px;
   position: relative;
@@ -8284,45 +7942,10 @@ input[type=number]::-webkit-outer-spin-button {
   .canvas-nav {
     width: 767px !important;
   }
-  .canvas-nav .icon-close-popup {
-    top: 16px;
-    right: 16px;
-    border-radius: 50%;
-    border: 1px solid var(--line);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    position: absolute;
-    background-color: var(--white);
-  }
-  .canvas-nav .icon-close-popup .icon {
-    color: var(--black);
-    font-size: 24px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-  }
-  .canvas-nav .icon-close-popup:hover {
-    border-color: var(--primary);
-  }
-  .canvas-nav .icon-close-popup:hover .icon {
-    color: var(--primary);
-  }
 }
 @media (min-width: 1200px) {
   .canvas-nav {
     width: 100% !important;
-  }
-  .canvas-nav .icon-close-popup {
-    width: 60px;
-    height: 60px;
   }
 }
 @media (min-width: 1440px) {
@@ -8330,14 +7953,7 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 48px;
   }
 }
-@media (min-width: 1600px) {
-  .canvas-nav .icon-close-popup {
-    width: 80px;
-    height: 80px;
-    top: 48px;
-    right: 48px;
-  }
-}
+
 @media (max-width: 1439px) {
   .canvas-nav .col-left {
     width: 60%;
@@ -8875,13 +8491,6 @@ input[type=number]::-webkit-outer-spin-button {
 .modal-newletter .modal-heading {
   margin-bottom: 0;
 }
-.modal-newletter .icon-close-popup {
-  background-color: var(--white);
-  border-radius: 50%;
-  transform: unset;
-  top: 8px;
-  right: 8px;
-}
 .modal-newletter .modal-body {
   padding: 30px;
 }
@@ -8909,10 +8518,6 @@ input[type=number]::-webkit-outer-spin-button {
 @media (max-width: 767px) {
   .modal-newletter .modal-body {
     padding: 30px 16px;
-  }
-  .modal-newletter .icon-close-popup {
-    padding: 10px;
-    font-size: 18px;
   }
 }
 
@@ -9098,11 +8703,6 @@ input[type=number]::-webkit-outer-spin-button {
 .modalDemo .header {
   position: relative;
 }
-.modalDemo .header .icon-close-popup {
-  position: absolute;
-  top: 18px;
-  right: 0;
-}
 .modalDemo .row-demo {
   grid-template-columns: repeat(5, 1fr);
   row-gap: 32px;
@@ -9117,10 +8717,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 /*------------ box icon ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -9140,7 +8737,6 @@ input[type=number]::-webkit-outer-spin-button {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -9310,10 +8906,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 /*------------ hover ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -9333,7 +8926,6 @@ input[type=number]::-webkit-outer-spin-button {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -9649,10 +9241,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 /*------------ product ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -9672,7 +9261,6 @@ input[type=number]::-webkit-outer-spin-button {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -10942,13 +10530,13 @@ input[type=number]::-webkit-outer-spin-button {
   opacity: 1;
 }
 
-.slider-scroll,
+.scroll,
 .product-thumbs-slider {
   display: flex;
   gap: 8px;
 }
 @media (max-width: 1199px) {
-  .slider-scroll,
+  .scroll,
   .product-thumbs-slider {
     flex-direction: column;
   }
@@ -12139,35 +11727,6 @@ input[type=number]::-webkit-outer-spin-button {
   aspect-ratio: 0.75;
 }
 
-.recent-blog-item {
-  display: flex;
-  gap: 20px;
-}
-.recent-blog-item .img-product {
-  width: 75px;
-  height: 112px;
-  border-radius: 4px;
-  overflow: hidden;
-  display: block;
-}
-.recent-blog-item .img-product img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.recent-blog-item .content {
-  display: grid;
-  gap: 8px;
-  align-content: flex-start;
-}
-.recent-blog-item .content .old-price {
-  margin-left: 6px;
-  color: #5c5c5c;
-}
-.recent-blog-item .content .new-price {
-  color: var(--primary);
-}
-
 .flat-wrap-frequently-bought-together .product-thumbs-slider {
   margin-bottom: 30px;
 }
@@ -12868,10 +12427,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 /*------------ blog ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -12891,7 +12447,6 @@ input[type=number]::-webkit-outer-spin-button {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -12901,162 +12456,6 @@ input[type=number]::-webkit-outer-spin-button {
     * Section
  ------------------------------------------------------------------------------ */
 /*--------- Abstracts variable ---------- */
-.article-blog {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.article-blog .blog-image {
-  position: relative;
-  display: inline-flex;
-}
-.article-blog .entry_image {
-  position: relative;
-}
-.article-blog .entry_image img {
-  aspect-ratio: 1.28;
-  object-fit: cover;
-  width: 100%;
-}
-.article-blog .entry_tag {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-.article-blog .entry_tag.pst-2 {
-  top: 8px;
-  left: 8px;
-}
-.article-blog .name-tag {
-  display: block;
-  padding: 8px 24px;
-  background-color: var(--black);
-  color: var(--white);
-}
-.article-blog .entry_name {
-  margin-bottom: 4px;
-  font-weight: normal;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  display: -webkit-box;
-  overflow: hidden;
-}
-.article-blog .text {
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  display: -webkit-box;
-  overflow: hidden;
-}
-.article-blog.style-row .entry_name {
-  margin-bottom: 0;
-}
-.article-blog.style-row .blog-content {
-  display: flex;
-  align-items: start;
-  flex-direction: column;
-  gap: 12px;
-}
-.article-blog.style-large {
-  grid-column: 1/-1;
-}
-.article-blog.style-large .entry_name {
-  margin-bottom: 12px;
-}
-.article-blog.style-large .text {
-  margin-bottom: 24px;
-}
-.article-blog.type-space-2 {
-  gap: 28px;
-}
-.article-blog.type-space-2 .blog-content {
-  padding: 0;
-}
-.article-blog.type-space-2 .entry_name {
-  margin-bottom: 12px;
-}
-.article-blog.type-space-2 .text {
-  margin-bottom: 24px;
-}
-.article-blog.type-space-2 .entry_tag {
-  top: 0;
-  left: 0;
-}
-.article-blog.style-radius {
-  gap: 28px;
-}
-.article-blog.style-radius .entry_image {
-  border-radius: 16px;
-}
-.article-blog.style-radius .name-tag {
-  border-radius: 999px;
-  background-color: var(--primary);
-}
-.article-blog.style-radius .entry_name {
-  margin-bottom: 12px;
-}
-.article-blog.style-radius .text {
-  margin-bottom: 24px;
-}
-.article-blog.style-radius .blog-content {
-  padding: 0;
-}
-@media (min-width: 768px) {
-  .article-blog.style-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 48px;
-  }
-  .article-blog.style-row .entry_image {
-    aspect-ratio: 0.9256198347;
-  }
-  .article-blog.style-row .entry_image img {
-    object-fit: cover;
-  }
-  .article-blog.style-row .blog-content {
-    padding-left: 0px;
-    max-width: 572px;
-  }
-}
-@media (min-width: 1200px) {
-  .article-blog {
-    gap: 32px;
-  }
-  .article-blog .entry_tag {
-    top: 16px;
-    left: 16px;
-  }
-  .article-blog .blog-content {
-    padding-left: 16px;
-  }
-  .article-blog.style-row .entry_name {
-    margin-bottom: -12px;
-  }
-  .article-blog.style-row .blog-content {
-    gap: 24px;
-  }
-  .article-blog.style-large {
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
-  }
-  .article-blog.style-large .entry_image img {
-    aspect-ratio: 1.7770382696;
-  }
-  .article-blog.style-large .blog-content {
-    padding-left: 0;
-  }
-  .article-blog.style-large .entry_name {
-    font-size: 32px;
-    line-height: 43px;
-  }
-  .article-blog.style-small img {
-    aspect-ratio: 1.7802197802;
-  }
-}
 
 .social-wrap .title {
   margin-bottom: 20px;
@@ -13251,132 +12650,6 @@ input[type=number]::-webkit-outer-spin-button {
   transform: rotate(180deg);
 }
 
-.page-title-blog {
-  position: relative;
-}
-.page-title-blog .bg-image {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-}
-.page-title-blog .bg-image .parallaxie {
-  position: absolute;
-  inset: 0;
-}
-.page-title-blog .name-tag {
-  display: inline-flex;
-  padding: 8px 24px;
-  background-color: var(--black);
-  color: var(--white);
-  margin-bottom: 12px;
-}
-.page-title-blog .heading {
-  text-transform: capitalize;
-  margin-bottom: 24px;
-}
-.page-title-blog .content {
-  padding-top: 200px;
-  padding-bottom: 30px;
-}
-.page-title-blog .entry_author {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--text);
-}
-.page-title-blog .name-author {
-  color: var(--text);
-}
-@media (min-width: 1200px) {
-  .page-title-blog .content {
-    padding-top: 300px;
-  }
-}
-@media (min-width: 1440px) {
-  .page-title-blog .heading {
-    line-height: 66.5px;
-  }
-  .page-title-blog .content {
-    padding-top: 475px;
-    padding-bottom: 48px;
-  }
-}
-@media (max-width: 1199px) {
-  .page-title-blog {
-    position: relative;
-  }
-  .page-title-blog::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.3019607843);
-  }
-  .page-title-blog .heading,
-  .page-title-blog .entry_author,
-  .page-title-blog .name-author {
-    color: var(--white);
-  }
-}
-
-.blog-detail_info {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  margin-top: 30px;
-}
-.blog-detail_info .title-label {
-  margin-bottom: 8px;
-}
-.blog-detail_info .entry_date {
-  font-weight: 600;
-}
-.blog-detail_info .tag-list {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  font-weight: 500;
-  gap: 8px 16px;
-}
-@media (min-width: 1200px) {
-  .blog-detail_info {
-    max-width: 248px;
-    width: 100%;
-  }
-}
-
-.blog-detail_content .box-text {
-  display: grid;
-  gap: 32px;
-}
-.blog-detail_content .entry_image img {
-  min-height: 300px;
-  object-fit: cover;
-}
-
-.quote-blog {
-  padding: 20px 15px;
-  background-color: var(--black);
-}
-.quote-blog .icon {
-  font-size: 56px;
-  margin-bottom: 12px;
-}
-.quote-blog .icon,
-.quote-blog .quote {
-  color: var(--white);
-}
-.quote-blog .quote {
-  font-style: italic;
-}
-@media (min-width: 1200px) {
-  .quote-blog {
-    padding: 32px;
-  }
-}
-
 .group-direc {
   display: flex;
   gap: 20px;
@@ -13421,27 +12694,6 @@ input[type=number]::-webkit-outer-spin-button {
   }
 }
 
-.blog-detail_comment {
-  padding-top: 64px;
-  margin-bottom: 56px;
-}
-.blog-detail_comment .title {
-  margin-bottom: 56px;
-}
-.blog-detail_comment .comment-list {
-  padding-bottom: 28px;
-}
-.blog-detail_comment .comment-list .comment-item:not(:last-child) {
-  margin-bottom: 28px;
-}
-.blog-detail_comment .comment-list .comment-item:not(:last-child) .cmt_content {
-  padding-bottom: 28px;
-  border-bottom: 1px solid var(--line-10);
-}
-.blog-detail_comment .btn-view-all {
-  max-width: 988px;
-  margin-left: auto;
-}
 
 .comment-item {
   display: flex;
@@ -13489,23 +12741,10 @@ input[type=number]::-webkit-outer-spin-button {
   }
 }
 
-.blog-detail_add_review .title {
-  margin-bottom: 8px;
-}
-.blog-detail_add_review .sub-title {
-  margin-bottom: 56px;
-}
 
 /*------------ testimonial ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
 
-	* Abstracts variable
-
-    * Reset css styles
 
     * Components
 
@@ -13521,7 +12760,6 @@ input[type=number]::-webkit-outer-spin-button {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -13857,10 +13095,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 /*------------ accordion ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -13880,7 +13115,6 @@ input[type=number]::-webkit-outer-spin-button {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -14072,10 +13306,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 /*------------ zoom ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -14095,7 +13326,6 @@ input[type=number]::-webkit-outer-spin-button {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -14279,10 +13509,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 /*------------ shop ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -14302,7 +13529,6 @@ input[type=number]::-webkit-outer-spin-button {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -14358,10 +13584,6 @@ input[type=number]::-webkit-outer-spin-button {
   transform-origin: 0 0;
 }
 
-html:not([dir=rtl]) .noUi-horizontal .noUi-origin {
-  left: auto;
-  right: 0;
-}
 
 .noUi-vertical .noUi-origin {
   width: 0;
@@ -14407,10 +13629,6 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-origin {
   top: -17px;
 }
 
-html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
-  right: -17px;
-  left: auto;
-}
 
 .noUi-draggable {
   cursor: ew-resize;
@@ -14492,11 +13710,6 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 .noUi-value-horizontal {
   -webkit-transform: translate(-50%, 50%);
   transform: translate(-50%, 50%);
-}
-
-.noUi-rtl .noUi-value-horizontal {
-  -webkit-transform: translate(50%, 50%);
-  transform: translate(50%, 50%);
 }
 
 .noUi-marker-horizontal.noUi-marker {
@@ -15208,10 +14421,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 
 /*------------ animation ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -15231,7 +14441,6 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -15387,10 +14596,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 }
 /*------------ tabs ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -15410,7 +14616,6 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -15568,7 +14773,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   pointer-events: none;
   appearance: none;
 }
-.widget-size .range-input input::-webkit-slider-thumb {
+.widget-size .range-input input::-webkit-thumb {
   cursor: pointer;
   width: 16px;
   height: 16px;
@@ -16061,10 +15266,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 
 /*------------ cart ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -16084,7 +15286,6 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -16851,10 +16052,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 
 /*------------ Section ---------------- */
 /* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+
 
 	* Abstracts variable
 
@@ -16874,7 +16072,6 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
         * form
         * hover
         * nice select
-        * popup
         * product
         * shop
         * slider
@@ -18892,21 +18089,6 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   object-fit: cover;
   width: 100%;
 }
-.video-wrap .popup-youtube {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  z-index: 2;
-}
-
 .tf-variant-dropdown {
   position: relative;
   border-radius: 99px;
@@ -19112,7 +18294,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 }
 
 .s-intro .brand-name {
-  font-size: clamp(60px, 16vw, 258px);
+  font-size: clamp(50px, 12vw, 223px);
   line-height: clamp(86px, 20vw, 310px);
   font-weight: 500;
   color: var(--black);
@@ -19152,22 +18334,12 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 .s-about .wg-curve-text {
   margin-bottom: 30px;
 }
-.s-about .content-blog {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  text-align: center;
-}
 @media (min-width: 1200px) {
   .s-about .item_2 {
     grid-column: 2;
   }
   .s-about .wd-2-cols {
     grid-column: 3/span 2;
-  }
-  .s-about .content-blog {
-    padding-left: 24px;
   }
 }
 @media (min-width: 1440px) {
@@ -19210,62 +18382,6 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
     height: 100%;
     max-height: 350px;
     object-fit: cover;
-  }
-}
-
-.slider-thumb-wrap .slider-content-thumb {
-  margin-bottom: 40px;
-}
-.slider-thumb-wrap .slider-btn-thumbs {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-}
-.slider-thumb-wrap .btn-thumbs {
-  border-radius: 50%;
-  overflow: hidden;
-  cursor: pointer;
-  max-width: 72px;
-  filter: grayscale(100%);
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.slider-thumb-wrap .btn-thumbs.active {
-  filter: grayscale(0%);
-}
-@media (min-width: 1200px) {
-  .slider-thumb-wrap .slider-content-thumb {
-    margin-bottom: 56px;
-  }
-}
-
-.s-404 .image,
-.s-404 .content {
-  margin-bottom: 40px;
-}
-.s-404 .title {
-  margin-bottom: 12px;
-}
-.s-404 .content {
-  text-align: center;
-}
-.s-404 .wrap {
-  max-width: 448px;
-  width: 100%;
-  margin: auto;
-}
-.s-404 .group-btn {
-  gap: 12px;
-}
-.s-404 .group-btn > * {
-  width: 100%;
-}
-@media (max-width: 575px) {
-  .s-404 .group-btn {
-    flex-wrap: wrap;
   }
 }
 
@@ -20632,510 +19748,3 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
     height: 450px;
   }
 }
-
-/*-------------- RTL ----------------- */
-/* ---------------------------------------------------------
-    * Name: injila - Multipurpose eCommerce HTML Template
-    * Version: 1.0.2
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
-
-	* Abstracts variable
-
-    * Reset css styles
-
-    * Components
-
-        * header
-        * footer
-        * accordion
-        * animation
-        * blog
-        * box icon
-        * button
-        * carousel
-        * avatar
-        * form
-        * hover
-        * nice select
-        * popup
-        * product
-        * shop
-        * slider
-        * testimonial
-        * zoom
-
-    * Section
- ------------------------------------------------------------------------------ */
-/*--------- Abstracts variable ---------- */
-.toggle-rtl {
-  padding: 0;
-  position: fixed;
-  top: 50%;
-  right: 15px;
-  width: 40px;
-  height: 40px;
-  min-width: 30px;
-  text-transform: uppercase;
-  z-index: 999;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 3px;
-}
-
-.rtl {
-  /* START -- RTL EDIT CSS BOOSTRAP */
-  /* END -- RTL EDIT CSS BOOSTRAP */
-  /* Responsive */
-}
-.rtl .toggle-rtl {
-  left: 15px;
-  right: auto;
-}
-.rtl .modal.fullRight .modal-dialog {
-  transform: translate(-100%, 0) !important;
-  transition: all 0.3s !important;
-}
-.rtl .modal.fullRight .modal-dialog .modal-content {
-  left: 0;
-  right: unset;
-}
-.rtl .modal.fullRight.show .modal-dialog {
-  transform: translate(0, 0) !important;
-}
-.rtl .offcanvas.offcanvas-end {
-  left: 0;
-  right: unset;
-  transform: translateX(-100%);
-}
-.rtl .offcanvas.offcanvas-start {
-  right: 0;
-  left: unset;
-  transform: translateX(100%);
-}
-.rtl .offcanvas.show:not(.hiding),
-.rtl .offcanvas.showing {
-  transform: none;
-}
-.rtl .offcanvas.hiding,
-.rtl .offcanvas.show,
-.rtl .offcanvas.showing {
-  visibility: visible;
-}
-.rtl .ms-auto {
-  margin-left: unset !important;
-  margin-right: auto;
-}
-@media (min-width: 576px) {
-  .rtl .ms-sm-auto {
-    margin-left: unset !important;
-    margin-right: auto;
-  }
-  .rtl .offset-sm-1 {
-    margin-left: unset;
-    margin-right: 8.33333333%;
-  }
-}
-@media (min-width: 992px) {
-  .rtl .offset-lg-2 {
-    margin-left: unset;
-    margin-right: 16.66666667%;
-  }
-}
-@media (min-width: 768px) {
-  .rtl .offset-md-2 {
-    margin-left: unset;
-    margin-right: 16.66666667%;
-  }
-}
-.rtl .tf-marquee {
-  direction: ltr;
-}
-.rtl .tf-slideshow .slider-wrap,
-.rtl .tf-slideshow-2 .slider-wrap {
-  direction: rtl;
-}
-.rtl .tf-slideshow .sld_image,
-.rtl .tf-slideshow-2 .sld_image {
-  transform: rotateY(180deg);
-}
-.rtl .card-product {
-  direction: rtl;
-}
-.rtl .marquee-wrapper {
-  animation: infiniteScrollRight 7s linear infinite;
-}
-.rtl .product-badge_list {
-  right: 8px;
-  left: auto;
-}
-.rtl .product-action_list {
-  left: 8px;
-  right: auto;
-}
-.rtl .product-action_list.style-row {
-  top: 0;
-  left: auto;
-}
-@media (min-width: 1200px) {
-  .rtl .product-action_list {
-    left: 16px;
-  }
-  .rtl .product-action_list li {
-    transform: translateX(-20px);
-  }
-}
-.rtl .product-action_list .hover-tooltip.tooltip-left .tooltip {
-  right: auto;
-  left: 100%;
-  bottom: auto;
-  transform: translateX(0px);
-}
-.rtl .product-action_list .hover-tooltip.tooltip-left .tooltip::before {
-  top: 50%;
-  right: auto;
-  transform: translateY(-50%) rotate(45deg);
-  left: -4px;
-}
-.rtl .product-action_list .hover-tooltip.tooltip-left:hover .tooltip {
-  transform: translateX(8px);
-}
-.rtl .testimonial-V01,
-.rtl .testimonial-V02,
-.rtl .testimonial-V03,
-.rtl .product-thumbs,
-.rtl .testimonial-V04 {
-  direction: rtl;
-}
-.rtl .article-blog {
-  direction: rtl;
-}
-.rtl .article-blog .entry_tag {
-  left: auto;
-  right: 10px;
-}
-@media (min-width: 1200px) {
-  .rtl .article-blog {
-    right: 16px;
-    left: auto;
-  }
-}
-.rtl .article-blog.type-space-2 .entry_tag {
-  right: 0;
-}
-.rtl .form-search.style-2 button {
-  right: auto;
-  left: 24px;
-}
-.rtl .box-image_V02 .box-image_image {
-  transform: rotateY(180deg);
-}
-.rtl .box-image_V02 .box-image_content {
-  left: auto;
-  right: 30px;
-}
-@media (min-width: 1200px) {
-  .rtl .box-image_V02 .box-image_content {
-    left: auto;
-    right: 48px;
-  }
-}
-.rtl .box-image_V05 .box-image_image {
-  transform: rotateY(180deg);
-}
-.rtl .box-image_V05 .box-image_content {
-  left: auto;
-  right: 32px;
-}
-.rtl .banner-lookbook .lookbook-product .content {
-  text-align: start;
-}
-.rtl .tf-select::after {
-  left: 24px;
-  right: auto;
-}
-.rtl .tf-dropdown-select.style-default > .dropdown-toggle {
-  padding-right: 0;
-  padding-left: 22px;
-}
-.rtl .tf-dropdown-select.style-default > .dropdown-toggle::after {
-  right: auto;
-  left: 0;
-}
-.rtl .canvas-mb .icon-close-popup {
-  left: 0;
-  right: auto;
-}
-.rtl .form_search-product .btn-submit {
-  border-radius: 999px 0px 0px 999px;
-  right: auto;
-  left: -1px;
-}
-.rtl .box-nav-category {
-  left: auto;
-  right: 0;
-}
-@media (min-width: 1440px) {
-  .rtl .box-nav-category {
-    left: auto;
-    right: -25px;
-  }
-}
-.rtl .box-image_V05.type-space-2 .box-image_content {
-  direction: rtl;
-}
-.rtl .btn-sidebar-mb {
-  left: auto;
-  right: 0;
-}
-.rtl .banner-V03 .banner_img img {
-  transform: rotateY(180deg);
-}
-.rtl .box-image_V02 .box-image_content {
-  left: auto;
-  right: 30px;
-  direction: rtl;
-}
-.rtl .form_search-product .btn-submit-2 {
-  right: unset;
-  left: 4px;
-}
-.rtl .box-image_V06 .box-image_image {
-  transform: rotateY(180deg);
-}
-.rtl .box-image_V06 .box-image_content {
-  left: auto;
-  right: 16px;
-  direction: rtl;
-}
-.rtl .product-badge_item.flash-sale {
-  direction: rtl;
-}
-.rtl .box-image_V06.has-overlay::after {
-  transform: rotateY(180deg);
-}
-.rtl .product-countdown .countdown__timer {
-  direction: ltr;
-}
-.rtl .box-image_V01.type-3 .box-image_image {
-  transform: rotateY(180deg);
-}
-.rtl .box-image_V01.type-3 .box-image_content {
-  left: auto;
-  right: 16px;
-}
-.rtl .widget-price .price-box {
-  direction: ltr;
-}
-.rtl .box-nav-category.type-2 {
-  left: auto;
-  right: 0;
-}
-.rtl .slider-wrap.has-overlay::after {
-  background: linear-gradient(90deg, rgba(41, 27, 27, 0) 32.95%, #291B1B 80.78%);
-}
-.rtl .tf-btn-swiper-main.pst-5 .band-swiper {
-  left: 24px;
-  right: auto;
-}
-.rtl .sb-banner .content {
-  right: 24px;
-  left: auto;
-}
-.rtl .noUi-horizontal .noUi-handle {
-  right: -8px;
-  left: auto;
-}
-.rtl .product-size_list .size-item:not(:last-child) {
-  padding-right: unset;
-  border-right: unset;
-  padding-left: 12px;
-  border-left: 1px solid var(--line);
-}
-.rtl .s-page-title.style-2 .content {
-  text-align: right;
-}
-.rtl .tf-zoom-main .drift-zoom-pane img {
-  left: 0;
-}
-.rtl .volume-discount-thumbnail-item .tags-save {
-  right: 0;
-  left: auto;
-}
-.rtl .widget-size .tow-bar-block .progress-size {
-  right: 0;
-  left: auto;
-}
-.rtl .modal-heading .icon-close-popup {
-  left: 0;
-  right: unset;
-}
-.rtl .modal-share .btn-coppy-text {
-  left: 5px;
-  right: auto;
-}
-.rtl .flat-animate-tab .menu-tab-3 {
-  border-left: unset;
-  border-right: 1px solid var(--line);
-}
-.rtl .flat-animate-tab .menu-tab-3 .tab-link {
-  padding: 16px 21px 16px 0px;
-}
-.rtl .flat-animate-tab .menu-tab-3 .tab-link::before {
-  right: -1px;
-  left: auto;
-}
-.rtl .page-title-image .page_image {
-  transform: rotateY(180deg);
-}
-.rtl form.style-btn-abs-end .btn-submit {
-  left: 24px;
-  right: auto;
-}
-.rtl form.style-btn-abs-end input {
-  padding-left: 48px;
-  padding-right: 24px;
-}
-.rtl .acount-order_stats .order-box {
-  direction: rtl;
-}
-.rtl .acount-order_stats .order_info {
-  padding-left: unset;
-  border-left: unset;
-  padding-right: 25px;
-  border-right: 1px solid var(--line);
-}
-.rtl .table-my_order td:first-child {
-  border-left: unset;
-  border-right: 1px solid var(--line);
-}
-.rtl .table-my_order td:last-child {
-  border-left: 1px solid var(--line);
-  border-right: unset;
-}
-.rtl .password-wrapper .toggle-pass {
-  left: 16px;
-  right: auto;
-}
-.rtl .page-title-blog .bg-image {
-  transform: rotateY(180deg);
-}
-.rtl .page-title-blog .bg-image .parallaxie {
-  background-position: center !important;
-}
-.rtl .modal-newletter .icon-close-popup {
-  left: 8px;
-}
-.rtl .sub-nav-menu {
-  padding-left: 0;
-  margin-left: 0;
-  border-left: 0;
-  padding-right: 16px;
-  margin-right: 16px;
-  border-right: 1px solid var(--line);
-}
-.rtl .group-btn-slider {
-  direction: ltr;
-}
-.rtl #sib-form .entry__choice label {
-  text-align: start;
-}
-.rtl .s-banner-header .btn-open_search {
-  direction: ltr;
-}
-@media (min-width: 576px) {
-  .rtl .account-address-item .address-item_content {
-    padding-right: 0;
-    border-right: unset;
-    padding-left: 24px;
-    border-left: 1px solid var(--line);
-  }
-}
-@media (min-width: 768px) {
-  .rtl .store-list .content.type-right {
-    margin-right: unset;
-  }
-  .rtl .store-list .content {
-    margin-right: auto;
-    margin-left: unset;
-  }
-}
-@media (min-width: 1200px) {
-  .rtl .product-action_list.style-row li {
-    transform: translateY(-16px);
-  }
-  .rtl .box-image_V02.type-space-5 .box-image_content {
-    left: auto;
-    right: 32px;
-  }
-  .rtl .box-image_V02 .box-image_content {
-    left: auto;
-    right: 48px;
-  }
-  .rtl .box-image_V06 .box-image_content {
-    left: auto;
-    right: 24px;
-  }
-  .rtl .box-image_V01.type-3 .box-image_content {
-    left: auto;
-    right: 32px;
-  }
-  .rtl .s-about .content-blog {
-    padding-left: 0;
-    padding-right: 24px;
-  }
-  .rtl .s-about .content-blog .box-intro {
-    text-align: start;
-  }
-  .rtl .store-list .content.type-right {
-    padding-left: unset;
-    padding-right: 40px;
-  }
-}
-@media (min-width: 1440px) {
-  .rtl .store-list .content.type-right {
-    padding-right: 80px;
-    padding-left: 16px;
-  }
-  .rtl .banner-card_product .product-content {
-    padding-left: 24px;
-    padding-right: 0;
-  }
-}
-@media (min-width: 1600px) {
-  .rtl .tf-header.style-5 .header-right {
-    margin-left: 0;
-    margin-right: -48px;
-  }
-  .rtl .slideshow-container.width-2 {
-    margin-left: unset;
-    margin-right: auto;
-  }
-  .rtl .slideshow-container.width-3 {
-    margin-left: unset;
-    margin-right: auto;
-  }
-}
-@media (max-width: 1199px) {
-  .rtl .box-image_V01.type-3::after {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 24.38%, #FFFfff 69.3%);
-  }
-}
-@media (max-width: 575px) {
-  .rtl .footer-heading-mobile {
-    padding-right: 0px;
-    padding-left: 20px;
-  }
-  .rtl .footer-heading-mobile::after {
-    right: auto;
-    left: 0;
-  }
-  .rtl .footer-heading-mobile::before {
-    right: auto;
-    left: 7px;
-  }
-}
-
-

@@ -12,18 +12,18 @@ import '../icon/icomoon/style.css';
 
 // Components
 import Slider from '../components/Slider';
-import CollectionSlider from '../components/CollectionSlider';
 import CategorySlider from '../components/CategorySlider';
-import SidebarFilter from '../components/SidebarFilter';
-import ShopControl from '../components/ShopControl';
+import ProductSidebar from '../components/ProductSidebar';
 
 function Product() {
   return (
 <>
   <Slider />
    <CategorySlider />
-   <SidebarFilter />
-   <ShopControl />
+   <ProductSidebar />
+   
+
+   
 </>
 
   );

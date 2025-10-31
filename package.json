@@ -1,9 +1,8 @@
 {
   "name": "my-react-app",
-  "version": "0.1.0",
-  "private": true,
- "homepage": "https://meenupaliwal.github.io/Jwellery-Website",
-  "dependencies": {
+  "version": "1.0.0",
+  "homepage": "https://meenupaliwal.github.io/Jwellery-Website",
+   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
@@ -17,14 +16,12 @@
     "swiper": "^11.2.10",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "deploy": "npm run build && git subtree split --prefix build -b gh-pages-temp && git push origin gh-pages-temp:gh-pages --force && git branch -D gh-pages-temp"
+},
+
   "eslintConfig": {
     "extends": [
       "react-app",

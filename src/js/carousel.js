@@ -239,8 +239,8 @@ if ($(".tf-sw-thumbs").length > 0) {
     thumbSwiper.controller.control = mainSwiper;
     mainSwiper.controller.control = thumbSwiper;
 }
-if ($(".slider-thumb-wrap").length > 0) {
-    const contentThumbSlider = new Swiper(".slider-content-thumb", {
+if ($(".thumb-wrap").length > 0) {
+    const contentThumbSlider = new Swiper(".content-thumb", {
         slidesPerView: 1,
         loop: true,
         grabCursor: true,

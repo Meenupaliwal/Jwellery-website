@@ -7,11 +7,18 @@ import '../css/styles.css';
 import '../css/animate.css';
 import '../icon/icomoon/style.css';
 import Slider from "../components/Slider";
+import ContactSection from "../components/ContactSection";
+import ContactSectionstyle from "../components/ContactSectionstyel";
+import ContactForm from "../components/ContactForm";
 
 const Contact = () => {
   return (
     <>
     <Slider/>
+    <ContactSection />
+    <ContactSectionstyle />
+    <ContactSection />
+    <ContactForm />
      </>
 
   );

@@ -42,34 +42,6 @@ const ShopControl = () => {
         </button>
       </div>
 
-      {/* Layout Switch */}
-      <ul className="tf-control-layout">
-        <li
-          className={`tf-view-layout-switch sw-layout-2 ${
-            activeLayout === "tf-col-2" ? "active" : ""
-          }`}
-          onClick={() => handleLayoutChange("tf-col-2")}
-        >
-          <i className="icon-grid-2"></i>
-        </li>
-        <li
-          className={`tf-view-layout-switch sw-layout-3 d-none d-md-flex ${
-            activeLayout === "tf-col-3" ? "active" : ""
-          }`}
-          onClick={() => handleLayoutChange("tf-col-3")}
-        >
-          <i className="icon-grid-3"></i>
-        </li>
-        <li className="br-line type-vertical"></li>
-        <li
-          className={`tf-view-layout-switch sw-layout-list list-layout ${
-            activeLayout === "list" ? "active" : ""
-          }`}
-          onClick={() => handleLayoutChange("list")}
-        >
-          <i className="icon-list"></i>
-        </li>
-      </ul>
 
       {/* Sorting Dropdown */}
       <div className="tf-control-sorting">
