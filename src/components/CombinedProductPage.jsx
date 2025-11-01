@@ -353,8 +353,8 @@ const CombinedProductPage = () => {
                         <a
                           href="#quickView"
                           data-bs-toggle="modal"
-                          className="hover-tooltip tooltip-left box-icon"
-                        >
+                          className="hover-tooltip tooltip-left box-icon" >
+
                           <span className="icon icon-view"></span>
                           <span className="tooltip">Quick view</span>
                         </a>
