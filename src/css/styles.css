@@ -6140,122 +6140,6 @@ input[type=number]::-webkit-outer-spin-button {
 .tf-dropdown-select.style-default > select {
   display: none !important;
 }
-.tf-dropdown-select.style-default > .dropdown-toggle {
-  padding: 0px;
-  padding-right: 22px;
-  background-color: transparent !important;
-  border: 0;
-  outline: none !important;
-  color: var(--black);
-}
-.tf-dropdown-select.style-default > .dropdown-toggle::after {
-  border: 0;
-  position: absolute;
-  right: 0;
-  content: "\e916";
-  font-family: "icomoon";
-  font-size: 14px;
-  color: var(--black);
-  margin-left: 0px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.tf-dropdown-select.style-default .filter-option-inner-inner {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  font-weight: 400;
-  font-size: clamp(16px, 2vw, 18px);
-  line-height: clamp(22px, 3vw, 24px);
-  gap: 8px;
-}
-.tf-dropdown-select.style-default .filter-option-inner-inner img {
-  height: 24px;
-  width: 24px;
-}
-.tf-dropdown-select.style-default > .dropdown-menu {
-  overflow: unset !important;
-  margin-top: 17px !important;
-  margin-bottom: 17px !important;
-  padding: 15px 20px;
-  border-radius: 0;
-  border: 0;
-  background-color: var(--white);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 18px 0px;
-}
-.tf-dropdown-select.style-default > .dropdown-menu a {
-  padding: 5px 0;
-}
-.tf-dropdown-select.style-default > .dropdown-menu a .text {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  gap: 5px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-}
-.tf-dropdown-select.style-default > .dropdown-menu a .text img {
-  width: 20px;
-  height: 20px;
-}
-.tf-dropdown-select.style-default > .dropdown-menu a:hover, .tf-dropdown-select.style-default > .dropdown-menu a:active, .tf-dropdown-select.style-default > .dropdown-menu a.active {
-  color: var(--primary) !important;
-  background-color: unset !important;
-}
-.tf-dropdown-select.style-default > .dropdown-menu::after {
-  position: absolute;
-  content: "";
-  width: 16px;
-  height: 16px;
-  transform: translate(-50%, -50%) rotate(45deg);
-  background-color: var(--white);
-  top: 0;
-  left: 50%;
-  z-index: 2;
-}
-.tf-dropdown-select.style-default > .dropdown-menu[data-popper-placement=top-start]::after {
-  display: none;
-}
-.tf-dropdown-select.style-default > .dropdown-menu[data-popper-placement=top-start]::before {
-  position: absolute;
-  content: "";
-  width: 16px;
-  height: 16px;
-  transform: translate(-50%, 50%) rotate(45deg);
-  background-color: var(--white);
-  bottom: 0%;
-  left: 50%;
-  z-index: 2;
-}
-.tf-dropdown-select.style-default .dropdown-menu > .inner {
-  overflow-y: hidden !important;
-}
-.tf-dropdown-select.type-currencies > .dropdown-menu {
-  width: 100px !important;
-}
-.tf-dropdown-select.type-languages > .dropdown-menu {
-  width: 110px !important;
-}
-.tf-dropdown-select.color-white > .dropdown-toggle {
-  color: var(--white);
-}
-.tf-dropdown-select.color-white > .dropdown-toggle::after {
-  color: var(--white);
-}
-.tf-dropdown-select.color-white-2 > .dropdown-toggle {
-  color: var(--text);
-}
-.tf-dropdown-select.color-white-2 > .dropdown-toggle::after {
-  color: var(--text);
-}
-.tf-dropdown-select.color-white-3 > .dropdown-toggle {
-  color: var(--line-4);
-}
-.tf-dropdown-select.color-white-3 > .dropdown-toggle::after {
-  color: var(--line-4);
-}
-
 .tf-dropdown-wrap {
   display: flex;
   gap: 20px;
@@ -19752,15 +19636,38 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
   float: left;
 }
 
+
+
+
+
+/* ===== Zoom effect for main product image ===== */
+.main-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.zoom-effect {
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.4);
+  cursor: zoom-in;
+}
+/* ===== Zoom effect for main product image ===== */
+.main-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.zoom-effect {
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.4);
+  cursor: zoom-in;
+}
+
 /* After (universal rule) */
-.swiper-slide {
-  float: left;
-}
 
-[dir="ltr"] .swiper-slide {
-  float: left;
-}
-
-[dir="rtl"] .swiper-slide {
-  float: right;
-}

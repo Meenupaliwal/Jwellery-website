@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom"; // ✅ Import Link from react-router-dom
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
@@ -80,10 +80,10 @@ const Header = () => {
               </button>
             </div>
 
-            {/* ✅ Logo linked to Home */}
+            {/* ✅ Fixed Logo Path */}
             <div className="col-xl-3 col-md-4 col-6 d-flex justify-content-center justify-content-xl-start">
               <Link to="/" className="logo-site">
-                <img src="images/logo/logo.svg" alt="Logo" />
+                <img src="/images/logo/logo.svg" alt="Logo" />
               </Link>
             </div>
 
@@ -91,7 +91,6 @@ const Header = () => {
             <div className="col-xl-6 d-none d-xl-block">
               <nav className="box-navigation">
                 <ul className="box-nav-menu">
-                  {/* ✅ HOME link fixed */}
                   <li className="menu-item">
                     <Link to="/" className="item-link">HOME</Link>
                   </li>
@@ -114,7 +113,7 @@ const Header = () => {
                               <ul className="sub-menu_list">
                                 {jewelleryCategories.map((item, i) => (
                                   <li key={i}>
-                                    <Link to={`/shop-${item.toLowerCase().replace(/\s+/g, "-")}`} className="sub-menu_link">
+                                    <Link to={`/product/productdetail`} className="sub-menu_link">
                                       {item}
                                     </Link>
                                   </li>
@@ -126,7 +125,7 @@ const Header = () => {
                               <ul className="sub-menu_list">
                                 {artificialJewellery.map((item, i) => (
                                   <li key={i}>
-                                    <Link to={`/shop-${item.toLowerCase().replace(/\s+/g, "-")}`} className="sub-menu_link">
+                                    <Link to={`/product/productdetail`} className="sub-menu_link">
                                       {item}
                                     </Link>
                                   </li>
@@ -137,7 +136,7 @@ const Header = () => {
                               <ul className="list-hor">
                                 <li className="wg-cls hover-img">
                                   <Link to="/shop-default" className="image img-style">
-                                    <img src="images/collections/cls-header-1.jpg" alt="Collection" />
+                                    <img src="/images/collections/cls-header-1.jpg" alt="Collection" />
                                   </Link>
                                   <div className="cls-content">
                                     <h4 className="tag_cls">Kurtis</h4>
@@ -153,7 +152,6 @@ const Header = () => {
                     )}
                   </li>
 
-                  {/* About and Contact */}
                   <li className="menu-item"><Link to="/about" className="item-link">ABOUT US</Link></li>
                   <li className="menu-item"><Link to="/contact" className="item-link">CONTACT</Link></li>
                 </ul>
@@ -166,7 +164,7 @@ const Header = () => {
                 <li className="d-none d-lg-flex"><Link to="/login" className="nav-icon-item link"><i className="icon icon-user"></i></Link></li>
                 <li className="d-none d-md-flex"><a href="#search" className="nav-icon-item link"><i className="icon icon-magnifying-glass"></i></a></li>
                 <li className="d-none d-sm-flex"><Link to="/wishlist" className="nav-icon-item link"><i className="icon icon-heart"></i></Link></li>
-                <li className="shop-cart"><a href="#shoppingCart" className="nav-icon-item link"><i className="icon icon-shopping-cart-simple"></i></a><span className="count">24</span></li>
+                <li className="shop-cart"><a href="/shoppingCart" className="nav-icon-item link"><i className="icon icon-shopping-cart-simple"></i></a><span className="count">24</span></li>
               </ul>
             </div>
           </div>
@@ -176,7 +174,6 @@ const Header = () => {
         <div className={`mobile-offcanvas ${mobileMenuOpen ? "open" : ""}`}>
           <button className="close-btn" onClick={() => setMobileMenuOpen(false)}>×</button>
           <ul className="mobile-nav-menu">
-            {/* ✅ HOME Link fixed */}
             <li><Link to="/" onClick={() => setMobileMenuOpen(false)}>HOME</Link></li>
 
             <li>
@@ -194,14 +191,14 @@ const Header = () => {
                 <ul className="mobile-submenu">
                   {jewelleryCategories.map((item, i) => (
                     <li key={i}>
-                      <Link to={`/shop-${item.toLowerCase().replace(/\s+/g, "-")}`} onClick={() => setMobileMenuOpen(false)}>
+                      <Link to={`/product/productdetail`} onClick={() => setMobileMenuOpen(false)}>
                         {item}
                       </Link>
                     </li>
                   ))}
                   {artificialJewellery.map((item, i) => (
                     <li key={i}>
-                      <Link to={`/shop-${item.toLowerCase().replace(/\s+/g, "-")}`} onClick={() => setMobileMenuOpen(false)}>
+                      <Link to={`/product/productdetail`} onClick={() => setMobileMenuOpen(false)}>
                         {item}
                       </Link>
                     </li>

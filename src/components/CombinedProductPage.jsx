@@ -30,7 +30,7 @@ const CombinedProductPage = () => {
     {
       id: 2,
       link: "gold-necklace-detail.html",
-      img1: "images/products/product-39.jpg",
+      img1: "images/products/product-39.jpg", 
       img2: "images/products/product-40.jpg",
       title: "Royal Gold Necklace Set",
       timer: "36000",
@@ -221,7 +221,7 @@ const CombinedProductPage = () => {
       {/* ----------------- Marquee Cards Section ----------------- */}
       <section className="marquee-section py-5 bg-light">
         <div className="container">
-          <h2 className="fw-bold mb-4 text-center">Special Offers</h2>
+          <h2 className="fw-bold mb-5 text-center">Special Offers</h2>
           <div className="row">
             {marqueProducts.map((product) => (
               <div className="col-lg-4 col-md-6 mb-4" key={product.id}>
@@ -296,7 +296,7 @@ const CombinedProductPage = () => {
       {/* ----------------- Artificial Jewellery Swiper Section ----------------- */}
       <section className="flat-spacing p-0 py-5">
         <div className="container">
-          <h2 className="fw-bold mb-4 text-center">Artificial Jewellery</h2>
+          <h2 className="fw-bold mb-5 text-center">Artificial Jewellery</h2>
           <Swiper
             modules={[Pagination]}
             spaceBetween={30}

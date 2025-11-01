@@ -2,7 +2,7 @@ import React from "react";
 import SidebarFilter from "./SidebarFilter";
 import ShopControl from "./ShopControl";
 import Policies from "./Policies";
-import CombinedProductPage from "./CombinedProductPage ";
+import CombinedProductPage from "./CombinedProductPage";
 
 const ProductSidebar = () => {
   return (

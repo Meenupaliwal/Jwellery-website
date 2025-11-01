@@ -2,9 +2,9 @@ import React from "react";
 import boxImage8 from "../images/section/box-image-8.jpg";
 import boxImage9 from "../images/section/box-image-9.jpg";
 
-const ThemesFlat = () => {
+const Injila = () => {
   return (
-    <div className="themesFlat">
+    <div className="injila">
       <div className="container">
         <div className="tf-grid-layout lg-col-2">
           {/* Box 1 */}
@@ -27,8 +27,7 @@ const ThemesFlat = () => {
               </a>
               <a
                 href="/shop-default"
-                className="tf-btn btn-white animate-btn animate-dark"
-              >
+                className="tf-btn btn-white animate-btn animate-dark"    >
                 Shop now
                 <i className="icon icon-arrow-right"></i>
               </a>
@@ -51,8 +50,7 @@ const ThemesFlat = () => {
               </span>
               <a
                 href="/shop-default"
-                className="title link text-display-2 fw-medium text-white"
-              >
+                className="title link text-display-2 fw-medium text-white" >
                 Birthstone Jewelry
               </a>
               <a
@@ -65,9 +63,9 @@ const ThemesFlat = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> 
     </div>
   );
 };
 
-export default ThemesFlat;
+export default Injila;

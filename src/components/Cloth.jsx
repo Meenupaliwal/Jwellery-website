@@ -19,7 +19,7 @@ import product29 from "../images/products/product-29.jpg";
 
 const Cloth = () => {
   return (
-    <div className="themesFlat flat-spacing">
+    <div className="injila flat-spacing">
       <div className="container-full">
         {/* ---------- Section Title ---------- */}
         <div className="h1 sect-title text-black fw-medium text-center wow fadeInUp">
