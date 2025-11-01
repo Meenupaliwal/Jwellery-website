@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Jwellery-website/static/css/main.be6b0338.css",
-    "main.js": "/Jwellery-website/static/js/main.98f9b653.js",
+    "main.js": "/Jwellery-website/static/js/main.30bc8eb1.js",
     "static/js/453.cd88b386.chunk.js": "/Jwellery-website/static/js/453.cd88b386.chunk.js",
     "static/media/icomoon995b.svg?fg717e": "/Jwellery-website/static/media/icomoon995b.bccf639eae0a0bc5f7ab.svg",
     "static/media/box-image-9.jpg": "/Jwellery-website/static/media/box-image-9.a135b47d23140844cb9c.jpg",
@@ -46,11 +46,11 @@
     "static/media/start.svg": "/Jwellery-website/static/media/start.9616e336d7521322c5a5.svg",
     "static/media/start-1.svg": "/Jwellery-website/static/media/start-1.61b4785373e153323dfb.svg",
     "main.be6b0338.css.map": "/Jwellery-website/static/css/main.be6b0338.css.map",
-    "main.98f9b653.js.map": "/Jwellery-website/static/js/main.98f9b653.js.map",
+    "main.30bc8eb1.js.map": "/Jwellery-website/static/js/main.30bc8eb1.js.map",
     "453.cd88b386.chunk.js.map": "/Jwellery-website/static/js/453.cd88b386.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be6b0338.css",
-    "static/js/main.98f9b653.js"
+    "static/js/main.30bc8eb1.js"
   ]
 }

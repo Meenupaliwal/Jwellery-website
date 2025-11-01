@@ -13,7 +13,7 @@ import ProductDetail from "./pages/ProductDetail";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Jwellery-website">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
