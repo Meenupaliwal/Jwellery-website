@@ -5,23 +5,23 @@ import { Pagination } from "swiper/modules";
 const galleryItems = [
   {
     id: 1,
-    image: "images/gallery/gallery-24.jpg",
-    link: "product-detail.html",
+    image: "images/Gold-jwellery/gallery-24.jpg",
+    link: "product/productdetail",
   },
   {
     id: 2,
-    image: "images/gallery/gallery-25.jpg",
-    link: "product-detail.html",
+    image: "images/Gold-jwellery/gallery-25.jpg",
+    link: "product/productdetail",
   },
   {
     id: 3,
-    image: "images/gallery/gallery-26.jpg",
-    link: "product-detail.html",
+    image: "images/Gold-jwellery/gallery-26.jpg",
+    link: "product/productdetail",
   },
   {
     id: 4,
-    image: "images/gallery/gallery-27.jpg",
-    link: "product-detail.html",
+    image: "images/Gold-jwellery/gallery-27.jpg",
+    link: "product/productdetail",
   },
 ];
 

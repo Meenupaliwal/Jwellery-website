@@ -1,14 +1,14 @@
 import React from "react";
-import "../css/styles.css"; // adjust path if needed
+import "../css/styles.css"; // make sure your CSS path is correct
 
-const PageTitleImage = () => {
+const PageTitleImage = ({ title, subtitle, image, buttonText, buttonLink }) => {
   return (
     <section className="page-title-image">
       <div className="page_image overflow-hidden">
         <img
           className="ani-zoom"
-          src="images/slider/slider-3.jpg"
-          alt="Banner"
+          src={`/${image}`}  // ✅ Image path from public folder
+          alt={title}
           loading="lazy"
         />
       </div>
@@ -17,13 +17,19 @@ const PageTitleImage = () => {
         <div className="container">
           <div className="content">
             <h1 className="heading fw-bold text-white">
-              WE PRIORITIZE SUSTAINABLE &amp; <br className="d-none d-sm-block" />
-              ENVIRONMENTALLY FRIENDLY <br className="d-none d-sm-block" />
-              DEVELOPMENT
+              {title} <br className="d-none d-sm-block" />
+              {subtitle && (
+                <>
+                  {subtitle} <br className="d-none d-sm-block" />
+                </>
+              )}
             </h1>
-            <a href="/product" className="tf-btn animate-btn">
-              Our Shop <i className="icon icon-caret-right"></i>
-            </a>
+
+            {buttonText && buttonLink && (
+              <a href={buttonLink} className="tf-btn animate-btn">
+                {buttonText} <i className="icon icon-caret-right"></i>
+              </a>
+            )}
           </div>
         </div>
       </div>

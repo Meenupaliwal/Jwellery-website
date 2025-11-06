@@ -5,18 +5,6 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
-// Section image
-import boxImage1 from "../images/section/box-image-1.jpg";
-
-// Product images
-import product23 from "../images/products/product-23.jpg";
-import product24 from "../images/products/product-24.jpg";
-import product25 from "../images/products/product-25.jpg";
-import product26 from "../images/products/product-26.jpg";
-import product27 from "../images/products/product-27.jpg";
-import product28 from "../images/products/product-28.jpg";
-import product29 from "../images/products/product-29.jpg";
-
 const Cloth = () => {
   return (
     <div className="injila flat-spacing">
@@ -24,27 +12,27 @@ const Cloth = () => {
         {/* ---------- Section Title ---------- */}
         <div className="h1 sect-title text-black fw-medium text-center wow fadeInUp">
           Kurties Shop
-            <p className="s-subtitle h6">
-    Discover our latest collection of stylish kurties, perfect for every occasion!
-  </p>
+          <p className="s-subtitle h6">
+            Discover our latest collection of stylish kurties, perfect for every occasion!
+          </p>
         </div>
 
         <div className="row">
           {/* ---------- Left Side Box Image ---------- */}
           <div className="col-xl-4">
             <div className="box-image_V01 hover-img mb-xl-0 wow fadeInUp">
-              <a href="/shop-default" className="box-image_image img-style">
-                <img src={boxImage1} alt="Lookbook" className="lazyload" />
+              <a href="product" className="box-image_image img-style">
+                <img src="/images/Gold-jwellery/box-image-1.jpg" alt="Lookbook" className="lazyload" />
               </a>
               <div className="box-image_content">
                 <a
-                  href="/shop-default"
+                  href="product"
                   className="title text-display fw-semibold text-white link"
                 >
                   Lookbook
                 </a>
                 <span className="sub-title h5 text-white">347 products</span>
-                <a href="/shop-default" className="tf-btn-line style-white">
+                <a href="product" className="tf-btn-line style-white">
                   EXPLORE NOW
                 </a>
               </div>
@@ -69,9 +57,9 @@ const Cloth = () => {
               <SwiperSlide>
                 <div className="card-product">
                   <div className="card-product_wrapper">
-                    <a href="/product-detail" className="product-img">
-                      <img src={product23} alt="Product" className="img-product" />
-                      <img src={product24} alt="Product hover" className="img-hover" />
+                    <a href="product/productdetail" className="product-img">
+                      <img src="/images/Gold-jwellery/product-23.jpg" alt="Product" className="img-product" />
+                      <img src="/images/Gold-jwellery/product-24.jpg" alt="Product hover" className="img-hover" />
                     </a>
 
                     {/* Action Buttons */}
@@ -122,7 +110,7 @@ const Cloth = () => {
 
                   {/* Info */}
                   <div className="card-product_info">
-                    <a href="/product-detail" className="name-product h4 link">
+                    <a href="product/productdetail" className="name-product h4 link">
                       V-neck button down vest
                     </a>
                     <div className="price-wrap">
@@ -135,17 +123,17 @@ const Cloth = () => {
                       <li className="product-color-item color-swatch hover-tooltip tooltip-bot active">
                         <span className="tooltip color-filter">Beige</span>
                         <span className="swatch-value bg-light-beige"></span>
-                        <img src={product23} alt="Beige" />
+                        <img src="/images/Gold-jwellery/product-23.jpg" alt="Beige" />
                       </li>
                       <li className="product-color-item color-swatch hover-tooltip tooltip-bot">
                         <span className="tooltip color-filter">Dark</span>
                         <span className="swatch-value bg-dark-charcoal"></span>
-                        <img src={product25} alt="Dark" />
+                        <img src="/images/Gold-jwellery/product-25.jpg" alt="Dark" />
                       </li>
                       <li className="product-color-item color-swatch hover-tooltip tooltip-bot">
                         <span className="tooltip color-filter">Sage Green</span>
                         <span className="swatch-value bg-sage-green"></span>
-                        <img src={product26} alt="Sage Green" />
+                        <img src="/images/Gold-jwellery/product-26.jpg" alt="Sage Green" />
                       </li>
                     </ul>
                   </div>
@@ -156,9 +144,9 @@ const Cloth = () => {
               <SwiperSlide>
                 <div className="card-product">
                   <div className="card-product_wrapper">
-                    <a href="/product-detail" className="product-img">
-                      <img src={product27} alt="Product" className="img-product" />
-                      <img src={product28} alt="Product hover" className="img-hover" />
+                    <a href="product/productdetail" className="product-img">
+                      <img src="/images/Gold-jwellery/product-27.jpg" alt="Product" className="img-product" />
+                      <img src="/images/Gold-jwellery/product-28.jpg" alt="Product hover" className="img-hover" />
                     </a>
 
                     {/* Action Buttons */}
@@ -211,7 +199,7 @@ const Cloth = () => {
 
                   {/* Info */}
                   <div className="card-product_info">
-                    <a href="/product-detail" className="name-product h4 link">
+                    <a href="product/productdetail" className="name-product h4 link">
                       Nike Sportswear Tee Shirts
                     </a>
                     <div className="price-wrap">
@@ -224,23 +212,25 @@ const Cloth = () => {
                       <li className="product-color-item color-swatch hover-tooltip tooltip-bot active">
                         <span className="tooltip color-filter">Beige</span>
                         <span className="swatch-value bg-light-beige"></span>
-                        <img src={product27} alt="Beige" />
+                        <img src="/images/Gold-jwellery/product-27.jpg" alt="Beige" />
                       </li>
                       <li className="product-color-item color-swatch hover-tooltip tooltip-bot">
                         <span className="tooltip color-filter">Violet</span>
                         <span className="swatch-value bg-muted-violet"></span>
-                        <img src={product29} alt="Violet" />
+                        <img src="/images/Gold-jwellery/product-29.jpg" alt="Violet" />
                       </li>
                     </ul>
                   </div>
                 </div>
               </SwiperSlide>
-                            <SwiperSlide>
+
+              {/* ---------- Product 3 ---------- */}
+              <SwiperSlide>
                 <div className="card-product">
                   <div className="card-product_wrapper">
-                    <a href="/product-detail" className="product-img">
-                      <img src={product27} alt="Product" className="img-product" />
-                      <img src={product28} alt="Product hover" className="img-hover" />
+                    <a href="product/productdetail" className="product-img">
+                      <img src="/images/Gold-jwellery/product-27.jpg" alt="Product" className="img-product" />
+                      <img src="/images/Gold-jwellery/product-28.jpg" alt="Product hover" className="img-hover" />
                     </a>
 
                     {/* Action Buttons */}
@@ -285,16 +275,15 @@ const Cloth = () => {
 
                     {/* Badge */}
                     <ul className="product-badge_list">
-                     <li className="product-badge_item h6 trend">
+                      <li className="product-badge_item h6 trend">
                         <i className="icon icon-thunder"></i> Trending
                       </li>
-                      
                     </ul>
                   </div>
 
                   {/* Info */}
                   <div className="card-product_info">
-                    <a href="/product-detail" className="name-product h4 link">
+                    <a href="product/productdetail" className="name-product h4 link">
                       Nike Sportswear Tee Shirts
                     </a>
                     <div className="price-wrap">
@@ -307,12 +296,12 @@ const Cloth = () => {
                       <li className="product-color-item color-swatch hover-tooltip tooltip-bot active">
                         <span className="tooltip color-filter">Beige</span>
                         <span className="swatch-value bg-light-beige"></span>
-                        <img src={product27} alt="Beige" />
+                        <img src="/images/Gold-jwellery/product-27.jpg" alt="Beige" />
                       </li>
                       <li className="product-color-item color-swatch hover-tooltip tooltip-bot">
                         <span className="tooltip color-filter">Violet</span>
                         <span className="swatch-value bg-muted-violet"></span>
-                        <img src={product29} alt="Violet" />
+                        <img src="/images/Gold-jwellery/product-29.jpg" alt="Violet" />
                       </li>
                     </ul>
                   </div>

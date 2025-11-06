@@ -154,9 +154,9 @@ const SidebarFilter = () => {
 
             {/* Banner Section */}
             <div className="sb-banner hover-img">
-              <Link to="/blog-detail" className="image img-style d-inline-flex">
+              <Link to="#" className="image img-style d-inline-flex">
                 <img
-                  src="images/blog/side-banner.jpg"
+                  src="images/Gold-jwellery/nosepin-2.jpeg"
                   alt="Banner"
                   className="lazyload"
                 />

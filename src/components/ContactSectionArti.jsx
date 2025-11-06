@@ -1,22 +1,35 @@
 import React from "react";
 
-const ContactSection = () => {
+const ContactSectionArti = () => {
   return (
     <section className="s-contact-information flat-spacing">
       <div className="container">
         <div className="row d-flex align-items-center">
           {/* Left Image */}
-         <div className="col-lg-5">
+          <div className="col-lg-7">
+            <div className="image mb-lg-0">
+              <img
+                loading="lazy"
+                width="820"
+                height="755"
+                src="/images/Gold-jwellery/box-image-9.jpg"
+                alt="Contact Information"
+              />
+            </div>
+          </div>
+
+          {/* Right Content */}
+          <div className="col-lg-5">
             <div className="infor-content">
-              <p className="title h1 fw-medium text-black">Jwellery Contact Information</p>
-                <p className="title h4 fw-medium text-black">JAGDISH PRASAD SHARMA</p>
+              <p className="title h1 fw-medium text-black">Imitation Jwellery Contact Information</p>
 
               <ul className="infor-store">
                 {/* Address */}
                 <li>
                   <h5 className="caption fw-semibold">Address</h5>
                   <p className="h6 mb-12">1319, Ganesh Gate, Baba Harish Chandra marg,
-                    Chandpol Bazar, Jaipur Rajasthan 302021.  </p>
+                    Chandpol Bazar, Jaipur Rajasthan 302021.  
+                  </p>
                   <a
                     href="#maplink"
                     target="_blank"
@@ -108,25 +121,10 @@ const ContactSection = () => {
               </ul>
             </div>
           </div>
-
-          {/* Right Content */}
- 
-
-                    <div className="col-lg-7">
-            <div className="image mb-lg-0">
-              <img
-                loading="lazy"
-                width="820"
-                height="755"
-                src="/images/Gold-jwellery/box-image-8.jpg"
-                alt="Contact Information"
-              />
-            </div>
-          </div>
         </div>
       </div>
     </section>
   );
 };
 
-export default ContactSection;
+export default ContactSectionArti;

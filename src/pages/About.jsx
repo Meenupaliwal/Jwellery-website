@@ -10,13 +10,31 @@ import PageTitleImage from "../components/PageTitleImage";
 import BrandStorySection from '../components/BrandStorySection';
 import InstagramSection from '../components/InstagramSection';
 import Testimonial from '../components/Testimonial';
+import BrandSlider from "../components/BrandSlider ";
+import BannerV05 from "../components/BannerV05";
 
 const About = () => {
   return (
     <>
-      <PageTitleImage />
+         <PageTitleImage
+        title="ABOUT OUR BRAND"
+        subtitle="CRAFTING BEAUTY WITH PURPOSE"
+        image="images/Gold-jwellery/slider-23.jpg"
+        buttonText="Explore Collection"
+        buttonLink="/product"
+      />
 
-       
+       <BrandSlider /> 
+       <BannerV05
+  backgroundImage="/images/Gold-jwellery/bannerV05.jpg"
+  circularText="Injila Store Fashion Style"
+  title="Injila. Store"
+  subtitle="Up to 50% off latest collection"
+  subText="Explore our stunning jewellery collection crafted for every occasion."
+  btnText="Shop Now"
+  btnLink="/shop"
+/>
+
     <section className="s-intro flat-spacing">
       <div className="container text-center">
         <p className="brand-name">INJILA. Store</p>
@@ -38,8 +56,8 @@ const About = () => {
           <div className="item_2 image d-none d-md-block">
             <img
               className="lazyload"
-              src="images/section/gallery-modal-2.jpg"
-              data-src="images/section/gallery-modal-2.jpg"
+              src="/images/Gold-jwellery/necklace.jpeg"
+              data-src="/images/Gold-jwellery/necklace.jpeg"
               alt="Modal 2"
             />
           </div>
@@ -59,15 +77,16 @@ const About = () => {
                   malesuada orci sed nulla scelerisque fermentum. Suspendisse
                   lacinia elit at bibendum tincidunt.
                 </p>
+                
               </div>
             </div>
           </div>
 
-          <div className="item_1 image">
+          <div className="item_1 image">                                 
             <img
               className="lazyload"
-              src="images/section/gallery-modal-1.jpg"
-              data-src="images/section/gallery-modal-1.jpg"
+              src="/images/Gold-jwellery/jhumki-style-5.jpeg"
+              data-src="/images/Gold-jwellery/jhumki-style-5.jpeg"
               alt="Modal 1"
             />
           </div>
@@ -75,8 +94,8 @@ const About = () => {
           <div className="d-md-none d-xl-block">
             <img
               className="lazyload d-md-none"
-              src="images/section/gallery-modal-2.jpg"
-              data-src="images/section/gallery-modal-2.jpg"
+              src="/images/Gold-jwellery/necklace-1.jpeg"
+              data-src="/images/Gold-jwellery/necklace-1.jpeg"
               alt="Modal 2"
             />
           </div>
@@ -84,8 +103,8 @@ const About = () => {
           <div className="item_3 image">
             <img
               className="lazyload"
-              src="images/section/gallery-modal-3.jpg"
-              data-src="images/section/gallery-modal-3.jpg"
+              src="/images/Gold-jwellery/necklace-3.jpeg"
+              data-src="/images/Gold-jwellery/necklace-3.jpeg"
               alt="Modal 3"
             />
           </div>
@@ -93,8 +112,8 @@ const About = () => {
           <div className="item_4 image">
             <img
               className="lazyload"
-              src="images/section/gallery-modal-4.jpg"
-              data-src="images/section/gallery-modal-4.jpg"
+              src="/images/Gold-jwellery/jhumki-style-4.jpeg"
+              data-src="/images/Gold-jwellery/jhumki-style-4.jpeg"
               alt="Modal 4"
             />
           </div>

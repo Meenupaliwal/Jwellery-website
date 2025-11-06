@@ -280,7 +280,7 @@ const productInfo = () => {
                 <span className="tooltip">Compare</span>
               </a>
             </div>
-            <a href="checkout.html" className="tf-btn btn-primary w-100 mt-3">
+            <a href="checkout" className="tf-btn btn-primary w-100 mt-3">
               BUY IT NOW
             </a>
           </div>

@@ -20,18 +20,34 @@ import ArtificialJewellery from "../components/ArtificialJewellery";
 import Testimonial from "../components/Testimonial";
 import Policies from "../components/Policies";
 import Injila from "../components/Injila";
+import SaleBanner from "../components/SaleBanner";
+import BannerV05 from "../components/BannerV05";
+import TrendingSection from "../components/TrendingSection";
 
 function Home() {
   return (
     <>
       <Slider />
       <CollectionSlider />
+      
+<TrendingSection />
       <ShopByCategories />
       <Injila />
+      
+      <SaleBanner />
+      <BannerV05
+  backgroundImage="/images/Gold-jwellery/bannerV05.jpg"
+  circularText="Injila Store Fashion Style"
+  title="Injila. Store"
+  subtitle="Up to 50% off latest collection"
+  subText="Explore our stunning jewellery collection crafted for every occasion."
+  btnText="Shop Now"
+  btnLink="/product"
+/>
       <ArtificialJewellery />
       <Cloth />
-      <Testimonial />
-      <Policies />
+      <Testimonial /> 
+      <Policies /> 
       <InstagramSection />
     </>
   );

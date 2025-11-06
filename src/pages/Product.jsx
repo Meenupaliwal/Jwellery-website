@@ -11,15 +11,21 @@ import '../icon/icomoon/style.css';
 
 
 // Components
-import Slider from '../components/Slider';
 import CategorySlider from '../components/CategorySlider';
 import ProductSidebar from '../components/ProductSidebar';
-import MarqueCard from '../components/MarqueCard';
+import PageTitleImage from '../components/PageTitleImage';
 
 function Product() {
   return (
 <>
-  <Slider />
+ <PageTitleImage
+  title="OUR EXCLUSIVE COLLECTION"
+  subtitle="JEWELLERY THAT DEFINES YOU"
+  image="images/Gold-jwellery/slider-24.jpg"
+  buttonText="Shop Now"
+  buttonLink="/product"
+/>
+
    <CategorySlider />
    
    <ProductSidebar />

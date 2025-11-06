@@ -78,11 +78,10 @@ const Footer = () => {
                 <p className="footer-heading footer-heading-mobile">Shopping</p>
                 <div className="tf-collapse-content">
                   <ul className="footer-menu-list">
-                    <li><a href="faq.html" className="link h6">Injila Shipping</a></li>
-                    <li><a href="shop-default.html" className="link h6">Shop by Brand</a></li>
-                    <li><a href="track-order.html" className="link h6">Track order</a></li>
-                    <li><a href="faq.html" className="link h6">Terms & Conditions</a></li>
-                    <li><a href="wishlist.html" className="link h6">My Wishlist</a></li>
+                    <li><a href="faq" className="link h6">Injila Shipping</a></li>
+                    <li><a href="track-order" className="link h6">Track order</a></li>
+                    <li><a href="terms" className="link h6">Terms & Conditions</a></li>
+                    <li><a href="wishlist" className="link h6">My Wishlist</a></li>
                   </ul>
                 </div>
               </div>
@@ -94,10 +93,10 @@ const Footer = () => {
                 <p className="footer-heading footer-heading-mobile">Information</p>
                 <div className="tf-collapse-content">
                   <ul className="footer-menu-list">
-                    <li><a href="about.html" className="link h6">About Us</a></li>
-                    <li><a href="faq.html" className="link h6">Term & Policy</a></li>
-                    <li><a href="faq.html" className="link h6">Help Center</a></li>
-                    <li><a href="faq.html" className="link h6">Refunds</a></li>
+                    <li><a href="about" className="link h6">About Us</a></li>
+                    <li><a href="faq" className="link h6">Term & Policy</a></li>
+                    <li><a href="faq" className="link h6">Help Center</a></li>
+                    <li><a href="faq" className="link h6">Refunds</a></li>
                   </ul>
                 </div>
               </div>
@@ -125,10 +124,10 @@ const Footer = () => {
                         <input id="remember" type="checkbox" className="tf-check style-3" />
                         <label htmlFor="remember" className="h6">
                           By clicking subscribe, you agree to the&nbsp;
-                          <a href="faq.html" className="text-decoration-underline link">Terms of Service</a> and <a href="faq.html" className="text-decoration-underline link">Privacy Policy</a>.
+                          <a href="faq" className="text-decoration-underline link">Terms of Service</a> and <a href="faq" className="text-decoration-underline link">Privacy Policy</a>.
                         </label>
                       </div>
-                      <div id="subscribe-msg"></div>
+                       <div id="subscribe-msg"></div>
                     </form>
                   </div>
                 </div>

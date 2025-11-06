@@ -6,14 +6,14 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // Product images
-import product13 from "../images/products/jewelry/product-13.jpg";
-import product14 from "../images/products/jewelry/product-14.jpg";
-import product15 from "../images/products/jewelry/product-15.jpg";
-import product16 from "../images/products/jewelry/product-16.jpg";
-import product17 from "../images/products/jewelry/product-17.jpg";
-import product18 from "../images/products/jewelry/product-18.jpg";
-import product19 from "../images/products/jewelry/product-19.jpg";
-import product20 from "../images/products/jewelry/product-20.jpg";
+import product13 from "/images/Gold-jwellery/product-13.jpg";
+import product14 from "/images/Gold-jwellery/product-14.jpg";
+import product15 from "/images/Gold-jwellery/product-15.jpg";
+import product16 from "/images/Gold-jwellery/product-16.jpg";
+import product17 from "/images/Gold-jwellery/product-17.jpg";
+import product18 from "/images/Gold-jwellery/product-18.jpg";
+import product19 from "/images/Gold-jwellery/product-19.jpg";
+import product20 from "/images/Gold-jwellery/product-20.jpg";
 
 const ArtificialJewelleryBox = () => {
   const products = [
@@ -70,7 +70,7 @@ const ArtificialJewelleryBox = () => {
             <SwiperSlide key={index}>
               <div className="card-product">
                 <div className="card-product_wrapper d-flex">
-                  <a href="/product-detail" className="product-img">
+                  <a href="product/productdetail" className="product-img">
                     <img src={item.img} alt={item.name} className="img-product" />
                     <img src={item.hoverImg} alt={item.name} className="img-hover" />
                   </a>
@@ -119,7 +119,7 @@ const ArtificialJewelleryBox = () => {
                 </div>
 
                 <div className="card-product_info">
-                  <a href="/product-detail" className="name-product h4 link">
+                  <a href="product/productdetail" className="name-product h4 link">
                     {item.name}
                   </a>
                   <div className="price-wrap mb-0">

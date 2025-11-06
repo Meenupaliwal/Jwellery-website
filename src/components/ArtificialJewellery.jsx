@@ -5,59 +5,48 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
-// Product images
-import product13 from "../images/products/jewelry/product-13.jpg";
-import product14 from "../images/products/jewelry/product-14.jpg";
-import product15 from "../images/products/jewelry/product-15.jpg";
-import product16 from "../images/products/jewelry/product-16.jpg";
-import product17 from "../images/products/jewelry/product-17.jpg";
-import product18 from "../images/products/jewelry/product-18.jpg";
-import product19 from "../images/products/jewelry/product-19.jpg";
-import product20 from "../images/products/jewelry/product-20.jpg";
-
 const ArtificialJewellery = () => {
   const products = [
     {
       name: "18K Gold Friendship Ring",
       oldPrice: "$109.99",
       newPrice: "$89.99",
-      img: product13,
-      hoverImg: product14,
+      img: "/images/Gold-jwellery/product-13.jpg",
+      hoverImg: "/images/Gold-jwellery/product-14.jpg",
     },
     {
       name: "14K Gold Plated Eternity Ring",
       oldPrice: "$99.99",
       newPrice: "$79.99",
-      img: product15,
-      hoverImg: product16,
+      img: "/images/Gold-jwellery/product-15.jpg",
+      hoverImg: "/images/Gold-jwellery/product-16.jpg",
     },
     {
       name: "Moissanite Wedding Ring Set",
       oldPrice: "$79.99",
       newPrice: "$59.99",
-      img: product17,
-      hoverImg: product18,
+      img: "/images/Gold-jwellery/product-17.jpg",
+      hoverImg: "/images/Gold-jwellery/product-18.jpg",
     },
     {
       name: "Silver Promise Rings",
       oldPrice: "$199.99",
       newPrice: "$159.99",
-      img: product19,
-      hoverImg: product20,
+      img: "/images/Gold-jwellery/product-19.jpg",
+      hoverImg: "/images/Gold-jwellery/product-20.jpg",
     },
   ];
 
   return (
     <section className="flat-spacing">
       <div className="container">
-        {/* ---------- Section Title ---------- */}
         <div className="sect-title text-center wow fadeInUp">
-<h1 class="s-title mb-8">Artificial Jewellery Collection</h1>
-<p class="s-subtitle h6">Discover stunning designs at unbeatable prices — up to 50% off on our latest artificial jewellery trends!</p>
-
+          <h1 className="s-title mb-8">Imitation Jewellery Collection</h1>
+          <p className="s-subtitle h6">
+            Discover stunning designs at unbeatable prices — up to 50% off on our latest Imitation jewellery trends!
+          </p>
         </div>
 
-        {/* ---------- Swiper ---------- */}
         <Swiper
           modules={[Pagination]}
           spaceBetween={30}
@@ -75,7 +64,7 @@ const ArtificialJewellery = () => {
             <SwiperSlide key={index}>
               <div className="card-product">
                 <div className="card-product_wrapper d-flex">
-                  <a href="/product-detail" className="product-img">
+                  <a href="product/productdetail" className="product-img">
                     <img src={item.img} alt={item.name} className="img-product" />
                     <img src={item.hoverImg} alt={item.name} className="img-hover" />
                   </a>
@@ -124,7 +113,7 @@ const ArtificialJewellery = () => {
                 </div>
 
                 <div className="card-product_info">
-                  <a href="/product-detail" className="name-product h4 link">
+                  <a href="product/productdetail" className="name-product h4 link">
                     {item.name}
                   </a>
                   <div className="price-wrap mb-0">

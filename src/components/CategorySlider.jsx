@@ -4,11 +4,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 
 const categories = [
-  { title: "Women", image: "images/category/cate-shop-1.jpg", link: "/shop-default" },
-  { title: "Men", image: "images/category/cate-shop-2.jpg", link: "/shop-default" },
-  { title: "Accessories", image: "images/category/cate-shop-3.jpg", link: "/shop-default" },
-  { title: "Dress", image: "images/category/cate-shop-4.jpg", link: "/shop-default" },
-  { title: "Bras", image: "images/category/cate-shop-5.jpg", link: "/shop-default" },
+  { title: "Necklace", image: "images/Gold-jwellery/necklace.jpeg", link: "product" },
+  { title: "Ring", image: "images/Gold-jwellery/ring.jpeg", link: "product" },
+  { title: "Nosepin", image: "images/Gold-jwellery/nojpin.jpeg", link: "product" },
+  { title: "Chauker", image: "images/Gold-jwellery/chauker.jpeg", link: "product" },
+  { title: "jhumki", image: "images/Gold-jwellery/jhumki-style-10.jpeg", link: "product" },
 ];
 
 const CategorySlider = () => {

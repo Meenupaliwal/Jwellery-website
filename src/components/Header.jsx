@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "../css/styles.css"; // ✅ make sure your CSS file is imported
 
-const Header = () => {
+const Header = ({ setShowEnquiryForm }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [productMenuOpen, setProductMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
@@ -32,7 +33,6 @@ const Header = () => {
     "Temple Jewellery",
   ];
 
-  // Sticky header effect
   useEffect(() => {
     const handleScroll = () => {
       setIsSticky(window.scrollY > 100);
@@ -69,8 +69,7 @@ const Header = () => {
       <header className={`tf-header header-fix header-abs-1 ${isSticky ? "sticky" : ""}`}>
         <div className="container-full">
           <div className="row align-items-center">
-            
-            {/* Mobile Menu Button */}
+
             <div className="col-md-4 col-3 d-xl-none">
               <button
                 className="btn-mobile-menu"
@@ -80,22 +79,17 @@ const Header = () => {
               </button>
             </div>
 
-            {/* ✅ Fixed Logo Path */}
             <div className="col-xl-3 col-md-4 col-6 d-flex justify-content-center justify-content-xl-start">
               <Link to="/" className="logo-site">
                 <img src="/images/logo/logo.svg" alt="Logo" />
               </Link>
             </div>
 
-            {/* Desktop Navigation */}
             <div className="col-xl-6 d-none d-xl-block">
               <nav className="box-navigation">
                 <ul className="box-nav-menu">
-                  <li className="menu-item">
-                    <Link to="/" className="item-link">HOME</Link>
-                  </li>
+                  <li className="menu-item"><Link to="/" className="item-link">HOME</Link></li>
 
-                  {/* PRODUCT menu */}
                   <li
                     className="menu-item"
                     onMouseEnter={() => setProductMenuOpen(true)}
@@ -104,6 +98,7 @@ const Header = () => {
                     <Link to="/product" className="item-link">
                       PRODUCT <i className="icon icon-caret-down"></i>
                     </Link>
+
                     {productMenuOpen && (
                       <div className="sub-menu mega-menu">
                         <div className="container">
@@ -113,30 +108,32 @@ const Header = () => {
                               <ul className="sub-menu_list">
                                 {jewelleryCategories.map((item, i) => (
                                   <li key={i}>
-                                    <Link to={`/product/productdetail`} className="sub-menu_link">
+                                    <Link to="/product/productdetail" className="sub-menu_link">
                                       {item}
                                     </Link>
                                   </li>
                                 ))}
                               </ul>
                             </div>
+
                             <div className="col-4">
-                              <h4 className="menu-heading">Artificial Jewellery</h4>
+                              <h4 className="menu-heading">Imitation Jewellery</h4>
                               <ul className="sub-menu_list">
                                 {artificialJewellery.map((item, i) => (
                                   <li key={i}>
-                                    <Link to={`/product/productdetail`} className="sub-menu_link">
+                                    <Link to="/product/productdetail" className="sub-menu_link">
                                       {item}
                                     </Link>
                                   </li>
                                 ))}
                               </ul>
                             </div>
+
                             <div className="col-4">
                               <ul className="list-hor">
                                 <li className="wg-cls hover-img">
-                                  <Link to="/shop-default" className="image img-style">
-                                    <img src="/images/collections/cls-header-1.jpg" alt="Collection" />
+                                  <Link to="/product" className="image img-style">
+                                    <img src="/images/Gold-jwellery/cls-header-1.jpg" alt="Collection" />
                                   </Link>
                                   <div className="cls-content">
                                     <h4 className="tag_cls">Kurtis</h4>
@@ -146,6 +143,7 @@ const Header = () => {
                                 </li>
                               </ul>
                             </div>
+
                           </div>
                         </div>
                       </div>
@@ -158,99 +156,26 @@ const Header = () => {
               </nav>
             </div>
 
-            {/* Right Icons */}
             <div className="col-xl-3 col-md-4 col-3">
               <ul className="nav-icon-list">
                 <li className="d-none d-lg-flex"><Link to="/login" className="nav-icon-item link"><i className="icon icon-user"></i></Link></li>
                 <li className="d-none d-md-flex"><a href="#search" className="nav-icon-item link"><i className="icon icon-magnifying-glass"></i></a></li>
                 <li className="d-none d-sm-flex"><Link to="/wishlist" className="nav-icon-item link"><i className="icon icon-heart"></i></Link></li>
-                <li className="shop-cart"><a href="/shoppingCart" className="nav-icon-item link"><i className="icon icon-shopping-cart-simple"></i></a><span className="count">24</span></li>
+
+                <li className="shop-cart">
+                  <button
+                    onClick={() => setShowEnquiryForm(true)}
+                    className="nav-icon-item link"
+                    style={{ background: "none", border: "none", cursor: "pointer" }}
+                  >
+                    <i className="icon icon-shopping-cart-simple"></i>
+                  </button>
+                  <span className="count">24</span>
+                </li>
               </ul>
             </div>
           </div>
         </div>
-
-        {/* Mobile Menu */}
-        <div className={`mobile-offcanvas ${mobileMenuOpen ? "open" : ""}`}>
-          <button className="close-btn" onClick={() => setMobileMenuOpen(false)}>×</button>
-          <ul className="mobile-nav-menu">
-            <li><Link to="/" onClick={() => setMobileMenuOpen(false)}>HOME</Link></li>
-
-            <li>
-              <Link
-                to="/product"
-                className="submenu-toggle"
-                onClick={(e) => {
-                  e.preventDefault();
-                  setProductMenuOpen(!productMenuOpen);
-                }}
-              >
-                PRODUCT <i className="icon icon-caret-down"></i>
-              </Link>
-              {productMenuOpen && (
-                <ul className="mobile-submenu">
-                  {jewelleryCategories.map((item, i) => (
-                    <li key={i}>
-                      <Link to={`/product/productdetail`} onClick={() => setMobileMenuOpen(false)}>
-                        {item}
-                      </Link>
-                    </li>
-                  ))}
-                  {artificialJewellery.map((item, i) => (
-                    <li key={i}>
-                      <Link to={`/product/productdetail`} onClick={() => setMobileMenuOpen(false)}>
-                        {item}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </li>
-            <li><Link to="/about" onClick={() => setMobileMenuOpen(false)}>ABOUT US</Link></li>
-            <li><Link to="/contact" onClick={() => setMobileMenuOpen(false)}>CONTACT</Link></li>
-          </ul>
-        </div>
-
-        {/* Sticky + Mobile Styles */}
-        <style jsx>{`
-          .sticky {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 999;
-            background: white;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-          }
-          .mobile-offcanvas {
-            position: fixed;
-            top: 0;
-            left: -100%;
-            width: 270px;
-            height: 100%;
-            background: white;
-            box-shadow: 2px 0 5px rgba(0,0,0,0.2);
-            transition: left 0.3s ease-in-out;
-            z-index: 9999;
-            padding: 20px;
-          }
-          .mobile-offcanvas.open {
-            left: 0;
-          }
-          .close-btn {
-            font-size: 24px;
-            border: none;
-            background: none;
-            cursor: pointer;
-            margin-bottom: 20px;
-          }
-          .mobile-nav-menu li {
-            margin-bottom: 15px;
-          }
-          .mobile-submenu li {
-            margin-left: 10px;
-            margin-bottom: 10px;
-          }
-        `}</style>
       </header>
     </>
   );

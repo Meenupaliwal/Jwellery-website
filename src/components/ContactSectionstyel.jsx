@@ -9,15 +9,17 @@ const ContactSectionstyle = () => {
 
           <div className="col-lg-5">
             <div className="infor-content">
-              <p className="title h1 fw-medium text-black">Contact Information</p>
+              <p className="title h1 fw-medium text-black">Kurti business Contact Information</p>
+              <p className="title h4 fw-medium text-black">INDRA DEVI SHARMA</p>
 
               <ul className="infor-store">
                 {/* Address */}
                 <li>
                   <h5 className="caption fw-semibold">Address</h5>
-                  <p className="h6 mb-12">2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+                  <p className="h6 mb-12">“Ram Ratan Bura, Opposite Hari Om Palace, Bajari Mandi Road, Vaishali Nagar,
+                     Kanakpura, Jaipur, Rajasthan, 302021”                 </p>
                   <a
-                    href="https://www.google.com/maps?q=2972+Westheimer+Rd.+Santa+Ana,Illinois+85486"
+                    href="#maplink"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="tf-btn-line"
@@ -37,14 +39,14 @@ const ContactSectionstyle = () => {
                       <i className="icon icon-phone"></i>
                       <span className="br-line type-vertical"></span>
                       <a href="tel:9414058509" className="h6 link">
-                        9414058509
+                        9950288754
                       </a>
                     </li>
                     <li>
                       <i className="icon icon-envelope-simple"></i>
                       <span className="br-line type-vertical"></span>
-                      <a href="mailto:narayanijewells@gmail.com" className="h6 link">
-                        narayanijewells@gmail.com
+                      <a href="mailto:kurtiinfo@gmail.com" className="h6 link">
+                        kurtiinfo@gmail.com
                       </a>
                     </li>
                   </ul>
@@ -114,7 +116,7 @@ const ContactSectionstyle = () => {
                 loading="lazy"
                 width="820"
                 height="755"
-                src="images/section/contact-information.jpg"
+                src="/images/Gold-jwellery/contact-information.jpg"
                 alt="Contact Information"
               />
             </div>

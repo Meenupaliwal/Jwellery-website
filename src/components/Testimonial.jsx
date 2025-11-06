@@ -5,8 +5,8 @@ import { Navigation } from "swiper/modules";
 const testimonials = [
   {
     id: 1,
-    image: "images/products/jewelry/product-5.jpg",
-    productName: "Silver Diamond Ring",
+    image: "images/Gold-jwellery/earring.jpeg",
+    productName: "Silver Diamond earring",
     price: "$14,99",
     title: "Dedicated service",
     text: "The support from ACIS has been outstanding. Anytime we had a question or needed help, their team responded quickly and professionally.",
@@ -14,8 +14,8 @@ const testimonials = [
   },
   {
     id: 2,
-    image: "images/products/jewelry/product-9.jpg",
-    productName: "Eternity Engagement Ring",
+    image: "images/Gold-jwellery/necklace-4.jpeg",
+    productName: "Eternity Engagement Necklace",
     price: "$19,99",
     title: "Exceptional Reliability",
     text: "No surprises, just consistent and dependable performance every single time without fail.",
@@ -23,8 +23,8 @@ const testimonials = [
   },
   {
     id: 3,
-    image: "images/products/jewelry/product-5.jpg",
-    productName: "UrbanCool Work Shirt",
+    image: "images/Gold-jwellery/nojpin.jpeg",
+    productName: "Party wear Nosepin",
     price: "$14,99",
     title: "Best Product Quality",
     text: "The build quality is excellent and everything works smoothly. I can feel the difference compared to other brands.",
@@ -84,7 +84,7 @@ const Testimonial = () => {
                   </div>
                   <div className="product-infor">
                     <h5 className="prd_name fw-normal">
-                      <a href="product-detail.html" className="link">
+                      <a href="product/productdetail" className="link">
                         {item.productName}
                       </a>
                     </h5>

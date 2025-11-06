@@ -8,17 +8,17 @@ import "../css/styles.css"; // include your global styles
 const BrandStorySection = () => {
   const slides = [
     {
-      image: "images/section/story-1.jpg",
+      image: "/images/Gold-jwellery/necklace.jpeg",
       title: "No harmful chemicals",
       text: "Morbi finibus erat ullamcorper malesuada",
     },
     {
-      image: "images/section/story-2.jpg",
+      image: "/images/Gold-jwellery/necklace-2.jpeg",
       title: "High-quality product",
       text: "Morbi finibus erat ullamcorper malesuada",
     },
     {
-      image: "images/section/story-3.jpg",
+      image: "/images/Gold-jwellery/necklace-3.jpeg",
       title: "Environmentally friendly",
       text: "Morbi finibus erat ullamcorper malesuada",
     },

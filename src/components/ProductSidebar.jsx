@@ -12,7 +12,7 @@ const ProductSidebar = () => {
           <SidebarFilter />
           <div className="col-xl-9">
             <ShopControl />
-            <CombinedProductPage />
+            <CombinedProductPage /> 
 
         
           </div>

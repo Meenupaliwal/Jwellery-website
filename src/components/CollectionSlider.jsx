@@ -4,15 +4,12 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import cls1 from "../images/collections/cls-1.jpg";
-import cls2 from "../images/collections/cls-2.jpg";
-import cls3 from "../images/collections/cls-3.jpg";
-
 const CollectionSlider = () => {
+  // ✅ Use direct public paths (no imports)
   const collections = [
-    { img: cls1, title: "Clothing" },
-    { img: cls2, title: "Jwellery" },
-    { img: cls3, title: "Artificial jewelry" },
+    { img: "/images/Gold-jwellery/cls-1.jpg", title: "Clothing" },
+    { img: "/images/Gold-jwellery/necklace-4.jpeg", title: "Jewellery" },
+    { img: "/images/Gold-jwellery/chauker-2.jpeg", title: "Imitation Jewelry" },
   ];
 
   return (
@@ -33,16 +30,16 @@ const CollectionSlider = () => {
         {collections.map((item, index) => (
           <SwiperSlide key={index}>
             <div className="wg-cls-2 d-flex hover-img">
-              <a href="shop-default.html" className="image img-style">
-                <img src={item.img} alt={item.title} />
+              <a href="product" className="image img-style">
+                <img src={item.img} alt={item.title} loading="lazy" />
               </a>
               <div className="cls-content_wrap b-16">
                 <div className="cls-content">
-                  <a href="shop-default.html" className="tag_cls h3 link">
+                  <a href="product" className="tag_cls h3 link">
                     {item.title}
                   </a>
                   <span className="br-line type-vertical"></span>
-                  <a href="shop-default.html" className="tf-btn-line text-nowrap">
+                  <a href="product" className="tf-btn-line text-nowrap">
                     Shop now
                   </a>
                 </div>

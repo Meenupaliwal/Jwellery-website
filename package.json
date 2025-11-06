@@ -1,5 +1,4 @@
 {
-  "homepage": "https://meenupaliwal.github.io/Jwellery-website/",
   "name": "jwellery-website",
   "version": "1.0.0",
   "dependencies": {
@@ -8,6 +7,7 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
     "drift-zoom": "^1.5.1",
     "jquery": "^3.7.1",
     "photoswipe": "^5.4.4",
@@ -23,7 +23,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "npm run build && git subtree split --prefix build -b gh-pages-temp && git push origin gh-pages-temp:gh-pages --force && git branch -D gh-pages-temp"
-    
   },
   "eslintConfig": {
     "extends": [

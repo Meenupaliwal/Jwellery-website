@@ -4,7 +4,7 @@ const MarqueCard = () => {
   const products = [
     {
       id: 1,
-      link: "gold-ring-detail.html",
+      link: "gold-ring-detail",
       img1: "images/products/product-37.jpg",
       img2: "images/products/product-38.jpg",
       name: "Elegant 22K Gold Ring",
@@ -13,7 +13,7 @@ const MarqueCard = () => {
     },
     {
       id: 2,
-      link: "gold-necklace-detail.html",
+      link: "gold-necklace-detail",
       img1: "images/products/product-39.jpg",
       img2: "images/products/product-40.jpg",
       name: "Royal Gold Necklace Set",
@@ -22,7 +22,7 @@ const MarqueCard = () => {
     },
     {
       id: 3,
-      link: "gold-bangle-detail.html",
+      link: "gold-bangle-detail",
       img1: "images/products/product-41.jpg",
       img2: "images/products/product-42.jpg",
       name: "Traditional 22K Gold Bangles",
